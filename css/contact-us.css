@@ -1,0 +1,284 @@
+.contact-us-content {
+    overflow: hidden;
+}
+.contact-us-content label{
+    color:#2ea3dc;
+    margin-bottom:1rem;
+    font-weight: 500;
+}
+.contact-us{
+    margin-top:-3rem;
+}
+.contact-us-content h2{
+    color: #000;
+    max-width: 900px;
+    margin:0 auto 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+}
+.contact-us-content p{
+    color:#000;
+    font-weight: 500;
+    max-width: 600px;
+    text-align: center;
+    margin:0 auto;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:2rem;
+}
+.form-wrapper .form-card {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of elements if needed */
+    width: calc((100% - 10px) /2);
+    margin-bottom: 1rem;
+    gap: 10px; /* Adds spacing between items */
+}
+
+.form-card .input-field {
+    width: 95%; /* Slightly less than 50% to accommodate gaps */
+}
+
+.form-card .input-field:nth-child(1) {
+    margin-right: 0; /* Removed explicit margin-right */
+}
+
+.form-card .input-wrapper {
+    width: 48%; /* Matches the width of input fields */
+    position: relative; /* Ensures the text-danger aligns correctly */
+}
+
+.text-danger{
+    height: 15px;
+    width: 100%;
+}
+
+.input-wrapper .input-field {
+    width: 100%; /* Takes full width of the wrapper */
+}
+
+.input-wrapper .text-danger {
+    display: block; /* Ensures the error text appears below */
+    margin-top: 5px;
+    color: red;
+    font-size: 12px;
+}
+
+.text-success {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#additional-information {
+    padding: 0px 1rem;
+    text-align: left;
+    height: 100px;
+    vertical-align: top; /* Optional, for alignment */
+    resize: none; /* Optional, to disable resizing */
+}
+input[type="text"] {
+    text-align: left;
+}
+.submit{
+    background-color: transparent;
+    border: unset;
+    color:#fff;
+    font-weight: 600;
+}
+.form-submit{
+    overflow: hidden;
+}
+.form-submit:hover{
+    color:#fff;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    outline: none;
+    align-items: center;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    text-transform: uppercase;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    overflow: hidden;
+    width: 16%;
+    background-color: #282e67;  
+}
+
+.btn:after {
+    color:#fff;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    content: "";
+    left: 0;
+    opacity: 0;
+    padding-top: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) scale(0);
+    transform-origin: bottom center;
+    transition: transform 0s .4s, opacity .4s;
+    
+}
+
+.btn span {
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+
+.btn .outer-wrap,
+.btn span {
+    transition: transform .5s cubic-bezier(.65, 0, .35, 1)
+}
+
+.btn .outer-wrap {
+    overflow: hidden;
+}
+
+.btn:hover .outer-wrap span {
+    transform: translateY(110%);
+}
+
+.btn .outer-wrap span:before {
+    content: attr(data-text);
+    left: 0;
+    position: absolute;
+    top: -110%;
+    transition: transform .5s cubic-bezier(.65, 0, .35, 1);
+    width: 100%;
+}
+
+.btn:hover:after {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.25);
+    transition: transform .4s, opacity .2s;
+}
+
+.btn-rounded {
+    border-radius: 50px;
+}
+
+#contactusForm{
+    width: 75%;
+    margin:0 auto;
+}
+
+@media (min-width: 2000px) and (max-width: 2400px) {
+}
+
+@media (min-width: 1601px) and (max-width: 1999px) {
+    .contact-us-content h2{
+
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    /* ipad-pro */
+    .btn {
+        width: 25%;
+    }
+    .contact-us-content h2{
+        font-size: 200%;
+    }
+    .contact-us {
+        margin-top: -2rem;
+    }
+    .form-control{
+        font-size: 15px;
+    }
+    .submit {
+        font-size: 92%;
+    }
+    #contactusForm {
+        width: 80%;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1023px) {
+    /* ipad air */
+    .btn {
+        width: 25%;
+    }
+    .contact-us-content h2{
+        font-size: 200%;
+    }
+    .contact-us {
+        margin-top: 0rem;
+    }
+    .form-control{
+        font-size: 15px;
+    }
+    .submit {
+        font-size: 92%;
+    }
+    #contactusForm {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 819px) {
+    /* ipad mini */
+    .btn {
+        width: 25%;
+    }
+    .contact-us-content h2{
+        font-size: 200%;
+    }
+    .contact-us {
+        margin-top: 0rem;
+    }
+    .form-control{
+        font-size: 13px;
+    }
+    .submit {
+        font-size: 92%;
+    }
+    #contactusForm {
+        width: 80%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /* mobile */
+    .contact-us-content h2{
+        font-size: 200%;
+    }
+    .form-card .input-field{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .form-card{
+        flex-wrap: wrap;
+    }
+    .form-card .input-field:nth-child(1){
+        margin-right:0;
+    }
+    .btn {
+        width: 100%;
+    }
+    .form-card {
+        margin-bottom: 0;
+    }
+    #contactusForm {
+        width: 86%;
+    }
+    .form-wrapper .form-card{
+        width: 100%;
+    }
+}

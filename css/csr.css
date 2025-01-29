@@ -1,0 +1,274 @@
+.csr-head h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+    margin-bottom: 1rem;
+    overflow:hidden;
+}
+.csr-head{
+    overflow: hidden;
+}
+.csr-head h3{
+    font-weight: 600;
+    overflow: hidden;
+    font-size: 150%;
+}
+.csr-head h4{
+    font-size: 120%;
+}
+.csr-head p{
+    overflow: hidden;
+}
+.csr-head ul{
+    overflow: hidden;
+}
+.csr-activity-slider{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.csr-card{
+    width: calc((100% - 40px) / 3);
+    margin-right:20px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius: 8px;
+}
+.csr-card img{
+    border-radius: 8px;
+}
+.csr-card:nth-child(3), .csr-card:nth-child(6){
+    margin-right:0;
+}
+.philosophy-content h3{
+    font-weight: 600;
+    overflow:hidden;
+    font-size: 150%;
+}
+.philosophy-wrapper{
+    display: flex;
+}
+.philosophy-content p{
+    overflow: hidden;
+}
+.philosophy-card{
+    width: calc((100% - 40px)/3);
+    margin-right: 20px;
+    padding:40px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+.philosophy-card:nth-child(3){
+    margin-right:0;
+}
+.philosophy-card h3{
+    text-align:center;
+    display: block;
+    margin:0 auto;
+}
+.power-head h3{
+    font-weight: 600;
+    overflow: hidden;
+}
+.power-head p{
+    overflow:hidden;
+}
+.power-head ul{
+    overflow:hidden;
+}
+.responsibility-head p{
+    overflow:hidden;
+}
+.responsibility-head h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+    margin-bottom: 1rem;
+}
+.responsibility-head p{
+    text-align: center;
+}
+.activity-head h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+    margin-bottom: 1rem;
+}
+.csr-activity-slider.owl-carousel {
+    display: block;
+    width: 100%;
+}
+.csr-activity-slider.owl-carousel .item {
+    display: block;
+    text-align: center;
+}
+.csr-activity-slider .owl-nav {
+    position: absolute;
+    bottom: -100%;
+    left: 44%;
+}
+.join-us h3{
+    font-weight: 600;
+    margin-top:3rem;
+    overflow: hidden;
+}
+.join-us p{
+    overflow: hidden;
+}
+.social-responsibility{
+    background-color: #f5f7fb;
+}
+.csr-pillars{
+    background-color: #f5f7fb;
+}
+
+@media screen and (min-width: 2500px) {
+    body {
+        max-width: 2500px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+    /* large devices */
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    /* large devices */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .csr-head h2{
+        font-size: 200%;
+    }
+    .csr-head h3 {
+        font-size: 120%;
+    }
+    .csr-head h4 {
+        font-size: 105%;
+    }
+    .philosophy-content h3{
+        font-size: 120%;
+    }
+    .power-head h3{
+        font-size: 120%;
+    }
+    .responsibility-head h2{
+        font-size: 200%;
+    }
+    .activity-head h2{
+        font-size: 200%;
+    }
+    .csr-activity-slider .owl-nav {
+        left:40%;
+    }
+    .join-us h3{
+        font-size: 120%;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+    /* ipad-air */
+    .csr-head h2{
+        font-size: 200%;
+    }
+    .csr-head h3 {
+        font-size: 120%;
+    }
+    .csr-head h4 {
+        font-size: 105%;
+    }
+    .philosophy-content h3{
+        font-size: 100%;
+    }
+    .power-head h3{
+        font-size: 120%;
+    }
+    .responsibility-head h2{
+        font-size: 200%;
+    }
+    .activity-head h2{
+        font-size: 200%;
+    }
+    .csr-activity-slider .owl-nav {
+        left:40%;
+    }
+    .join-us h3{
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 569px) and (max-width: 768px) {
+    /* ipad-mini */
+    .csr-head h2{
+        font-size: 200%;
+    }
+    .csr-head h3 {
+        font-size: 120%;
+    }
+    .csr-head h4 {
+        font-size: 105%;
+    }
+    .philosophy-content h3{
+        font-size: 100%;
+    }
+    .power-head h3{
+        font-size: 120%;
+    }
+    .responsibility-head h2{
+        font-size: 200%;
+    }
+    .activity-head h2{
+        font-size: 200%;
+    }
+    .csr-activity-slider .owl-nav {
+        left:40%;
+    }
+    .join-us h3{
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+
+    /* mobile devices */
+    .csr-head h2{
+        font-size: 200%;
+    }
+    .csr-head h3 {
+        font-size: 120%;
+    }
+    .csr-head h4 {
+        font-size: 105%;
+    }
+    .philosophy-content h3{
+        font-size: 120%;
+    }
+    .philosophy-card{
+        width: 100%;
+        margin-right:0;
+        margin-bottom:20px;
+    }
+    .philosophy-wrapper{
+        flex-wrap: wrap;
+    }
+    .power-head h3{
+        font-size: 120%;
+    }
+    .responsibility-head h2{
+        font-size: 200%;
+    }
+    .activity-head h2{
+        font-size: 200%;
+    }
+    .csr-activity-slider .owl-nav {
+        left:40%;
+    }
+    .join-us h3{
+        font-size: 120%;
+    }
+}

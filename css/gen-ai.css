@@ -1,0 +1,163 @@
+.gen-ai-head h2{
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+    text-align: center;
+    margin-bottom:1rem;
+}
+.gen-ai-head{
+    text-align:center;
+    max-width:900px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.productivity{
+    background-color:#f5f7fb;
+}
+.productivity-head{
+    overflow: hidden;
+}
+.productivity-head h2{
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+    margin-bottom:1rem;
+    text-align: center;
+}
+.implementing-rag{
+    background-color:#f5f7fb;
+}
+.rag-head h2{
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto 1rem;
+}
+.applications-head h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+    margin-bottom:2rem;
+}
+.applications-head ul{
+    margin: 0 auto;
+    display: block;
+}
+.partner{
+    background-color:#fff;
+}
+.our-expertise{
+    background-color:#f5f7fb;
+}
+.expertse-head h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+}
+.experience-head{
+    overflow: hidden;
+}
+.rag-head{
+    overflow: hidden;
+}
+.applications-head{
+    overflow: hidden;
+}
+.expertse-head{
+    overflow: hidden;
+}
+.experience-content{
+    overflow: hidden;
+}
+@media screen and (min-width: 2500px) {
+    body {
+        max-width: 2500px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+    /* large devices */
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    /* large devices */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .gen-ai-head h2{
+        font-size: 200%;
+    }
+    .productivity-head h2{
+        font-size: 200%;
+    }
+    .rag-head h2{
+        font-size: 200%;
+    }
+    .applications-head h2{
+        font-size: 200%;
+    }
+    .expertse-head h2{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    /* ipad-air */
+    .gen-ai-head h2{
+        font-size: 200%;
+    }
+    .productivity-head h2{
+        font-size: 200%;
+    }
+    .rag-head h2{
+        font-size: 200%;
+    }
+    .applications-head h2{
+        font-size: 200%;
+    }
+    .expertse-head h2{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 569px) and (max-width: 768px) {
+    /* ipad-mini */
+    .gen-ai-head h2{
+        font-size: 200%;
+    }
+    .productivity-head h2{
+        font-size: 200%;
+    }
+    .rag-head h2{
+        font-size: 200%;
+    }
+    .applications-head h2{
+        font-size: 200%;
+    }
+    .expertse-head h2{
+        font-size: 200%;
+    }
+}
+@media (min-width: 320px) and (max-width: 568px) {
+    /* mobile devices */
+    .gen-ai-head h2{
+        font-size: 200%;
+    }
+    .productivity-head h2{
+        font-size: 200%;
+    }
+    .rag-head h2{
+        font-size: 200%;
+    }
+    .applications-head h2{
+        font-size: 200%;
+    }
+    .expertse-head h2{
+        font-size: 200%;
+    }
+}

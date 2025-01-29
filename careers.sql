@@ -1,0 +1,11 @@
+USE careers;
+
+CREATE TABLE applications (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    position VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    mobile_no VARCHAR(15) NOT NULL,
+    file_path VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

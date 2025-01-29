@@ -1,0 +1,226 @@
+.banner-head h2{
+    overflow: hidden;
+}
+.pi-pillars-head h2{
+    text-align:center;
+    font-size: 300%;
+    font-weight: 600;
+    overflow:hidden;
+    
+}
+.pi-pillars-head p{
+    overflow:hidden;
+}
+.pillar-head label{
+    color: #2ea3dc;
+    margin-bottom:15px;
+}
+.building-together-head h2{
+    margin-top: 2rem;
+    text-align:center;
+    font-size: 300%;
+    font-weight: 600;
+    overflow:hidden;
+}
+.building-together-head p{
+    overflow:hidden;
+}
+.pillar-head p{
+    overflow: hidden;
+  }
+  .foundation-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+    overflow:hidden;
+}
+.foundation-head p{
+    overflow:hidden;
+}
+
+
+.visionn-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+    overflow:hidden;
+}
+.vision-head p{
+    overflow:hidden;
+}
+.strength-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+    overflow:hidden;
+}
+.strength-head p {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.transformation-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+    overflow:hidden;
+}
+.transformation-head p{
+    overflow:hidden;
+    margin-bottom: 0;
+}
+.flow-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+    overflow:hidden;
+}
+.flow-head p {
+    overflow:hidden;
+    margin-bottom: 0;
+}
+.read-more-head{
+    width: 50%;
+    overflow:hidden;
+}
+.building-together-head h2{
+    overflow: hidden;
+}
+.building-together-head p{
+    overflow:hidden;
+}
+.pillars-btn{
+    overflow: hidden;
+    width: 30%;
+}
+.building-together-head p{
+    text-align: center;
+}
+.foundation-head p{
+    margin-bottom: 0;
+}
+.visionn-head p{
+    margin-bottom:0;
+}
+
+@media screen and (min-width: 2500px){
+    body {
+        max-width: 2500px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+   /* large devices */
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    /* large devices */
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  /* ipad-air */
+  .the-foundation-head h3{
+    font-size:150%;
+ }
+ .building-together-head h2{
+    font-size: 200%;
+ }
+ .the-vision-head h3{
+    font-size:150%;
+ }
+ .the-strength-head h3{
+    font-size:150%;
+ }
+ .the-transformation-head h3{
+    font-size:150%;
+ }
+ .the-flow-head h3{
+    font-size:150%;
+ }
+ .read-more-head{
+     width:70%;
+   }
+   .read-more-head{
+    width:30%;
+    overflow: hidden;
+  }
+  .pillars-btn {
+    width: 70%;
+}
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+    /* mobile devices */
+    .building-together-head h2{
+        font-size: 200%;
+    }
+    .the-foundation-head h3{
+       font-size:150%; 
+    }
+    .pillars-btn {
+        width: 60%;
+    }
+    .the-vision-head h3{
+       font-size:150%;
+       
+    }
+    .the-strength-head h3{
+       font-size:150%;
+       
+    }
+    .the-transformation-head h3{
+       font-size:150%;
+      
+    }
+    .the-flow-head h3{
+       font-size:150%;
+      
+    }
+    .read-more-head{
+        width:70%;
+    }    
+}
+@media (min-width: 569px) and (max-width: 768px){
+    /* ipad-mini */
+    .building-together-head h2{
+        font-size: 200%;
+    }
+    .the-foundation-head h3{
+        font-size:150%;
+     }
+     .pillars-btn {
+        width: 50%;
+    }
+     .the-vision-head h3{
+        font-size:150%;
+     }
+     .the-strength-head h3{
+        font-size:150%;
+     }
+     .the-transformation-head h3{
+        font-size:150%;
+     }
+     .the-flow-head h3{
+        font-size:150%;
+     }
+     .read-more-head{
+         width:40%;
+       }
+       
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .read-more-head{
+      width:30%;
+    }
+    .building-together-head h2 {
+        font-size: 200%;
+    }
+    .read-more-head {
+        width: 50%;
+    }
+}

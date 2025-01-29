@@ -1,0 +1,254 @@
+.privacy-introduction .effective-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.information-we-collect-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.how-we-use-your-information-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.data-protection-and-security-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.data-sharing-and-disclosure-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.your-rights-and-choices-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.cookies-and-tracking-technologies-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.data-retention-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.data-transfers-and-storage-locations-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.changes-to-this-privacy-policy-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.contact-us-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.consent-for-data-collection-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.data-transfers-and-storage-locations-contain .contact-us-head{
+   max-width: 100%;
+   text-align:left;
+}
+
+
+@media screen and (min-width: 2500px){
+
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+   
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .privacy-introduction .effective-head h3{
+        font-size:150%;
+     }
+     
+     .information-we-collect-head h3{
+        font-size:150%;
+     }
+     .how-we-use-your-information-head h3{
+        font-size:150%;
+     }
+     .data-protection-and-security-head h3{
+        font-size:150%;
+     }
+     .data-sharing-and-disclosure-head h3{
+        font-size:150%;
+     }
+     .your-rights-and-choices-head h3{
+        font-size:150%;
+     }
+     .cookies-and-tracking-technologies-head h3{
+        font-size:150%;
+     }
+     .data-retention-head h3{
+        font-size:150%;
+     }
+     .data-transfers-and-storage-locations-head h3{
+        font-size:150%;
+     }
+     .changes-to-this-privacy-policy-head h3{
+        font-size:150%;
+     }
+     .contact-us-head h3{
+        font-size:150%;
+     }
+     .consent-for-data-collection-head h3{
+        font-size:150%;
+     }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+     /* ipad-air */
+     .privacy-introduction .effective-head h3{
+        font-size:150%;
+     }
+     
+     .information-we-collect-head h3{
+        font-size:150%;
+     }
+     .how-we-use-your-information-head h3{
+        font-size:150%;
+     }
+     .data-protection-and-security-head h3{
+        font-size:150%;
+     }
+     .data-sharing-and-disclosure-head h3{
+        font-size:150%;
+     }
+     .your-rights-and-choices-head h3{
+        font-size:150%;
+     }
+     .cookies-and-tracking-technologies-head h3{
+        font-size:150%;
+     }
+     .data-retention-head h3{
+        font-size:150%;
+     }
+     .data-transfers-and-storage-locations-head h3{
+        font-size:150%;
+     }
+     .changes-to-this-privacy-policy-head h3{
+        font-size:150%;
+     }
+     .contact-us-head h3{
+        font-size:150%;
+     }
+     .consent-for-data-collection-head h3{
+        font-size:150%;
+     }
+}
+
+@media (min-width: 569px) and (max-width: 768px){
+/* ipad-mini */
+.privacy-introduction .effective-head h3{
+    font-size:150%;
+ }
+ 
+ .information-we-collect-head h3{
+    font-size:150%;
+ }
+ .how-we-use-your-information-head h3{
+    font-size:150%;
+ }
+ .data-protection-and-security-head h3{
+    font-size:150%;
+ }
+ .data-sharing-and-disclosure-head h3{
+    font-size:150%;
+ }
+ .your-rights-and-choices-head h3{
+    font-size:150%;
+ }
+ .cookies-and-tracking-technologies-head h3{
+    font-size:150%;
+ }
+ .data-retention-head h3{
+    font-size:150%;
+ }
+ .data-transfers-and-storage-locations-head h3{
+    font-size:150%;
+ }
+ .changes-to-this-privacy-policy-head h3{
+    font-size:150%;
+ }
+ .contact-us-head h3{
+    font-size:150%;
+ }
+ .consent-for-data-collection-head h3{
+    font-size:150%;
+ }
+}
+
+
+@media (min-width: 320px) and (max-width: 568px){
+ /*mobile devices */
+ .privacy-introduction .effective-head h3{
+    font-size:150%;
+ }
+ 
+ .information-we-collect-head h3{
+    font-size:150%;
+ }
+ .how-we-use-your-information-head h3{
+    font-size:150%;
+ }
+ .data-protection-and-security-head h3{
+    font-size:150%;
+ }
+ .data-sharing-and-disclosure-head h3{
+    font-size:150%;
+ }
+ .your-rights-and-choices-head h3{
+    font-size:150%;
+ }
+ .cookies-and-tracking-technologies-head h3{
+    font-size:150%;
+ }
+ .data-retention-head h3{
+    font-size:150%;
+ }
+ .data-transfers-and-storage-locations-head h3{
+    font-size:150%;
+ }
+ .changes-to-this-privacy-policy-head h3{
+    font-size:150%;
+ }
+ .contact-us-head h3{
+    font-size:150%;
+ }
+ .consent-for-data-collection-head h3{
+    font-size:150%;
+ }
+}

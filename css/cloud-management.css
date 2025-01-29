@@ -1,0 +1,515 @@
+.cloud-management h2{
+    margin-bottom: 1rem;
+}
+
+.service-content h2{
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+}
+
+.service-content{
+    overflow: hidden;
+}
+
+.service-content span{
+    color:#2ea3dc;
+    padding-bottom:2rem;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .tab {
+    padding: 48px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background: #f9f9f9;
+    margin-right:10px;
+    width: calc((100% - 30px) / 4);
+  }
+  .tab:nth-child(4){
+    margin-right:0;
+  }
+  .tab.active {
+    background: #d4d4d4;
+
+  }
+  .content {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: #fff;
+  }
+  #tab4{
+    margin-left:20px;
+    padding:20px;
+    margin-right:0;
+  }
+  .cloud-spectrum .content p{
+    max-width: 700px;
+  }
+  .cloud-spectrum .content h3{
+    margin-top:2rem;
+    margin-bottom:1rem;
+  }
+  .cloud-spectrum .content.active {
+    display: block;
+    background: #d4d4d4;
+    margin-right: 20px;
+    margin-left:0;
+    padding:20px;
+  }
+  .cloud-spectrum .card-content h4{
+    font-size: 120%;
+    font-weight: 600;
+  }
+  .card-icon-wrapper{
+    margin-bottom: 1rem;
+  }
+  .card-content h4{
+    margin-bottom:1rem;
+  }
+  .accordian-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-div {
+    width: 52%;
+    position: relative;
+  }
+  
+  .accordion-img {
+    display: none;
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+  }
+  
+  .active-img {
+    display: block;
+  }
+  
+  .right-div {
+    width: 42%;
+  }
+  
+  .accordion-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .accordion-list li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+    padding: 20px 1rem;
+    border-radius: 8px;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  .accordion-list li.active {
+    background-color: #1d4b98;
+    color:#fff;
+  }
+
+  .card-content {
+    text-align: center;
+  }
+
+  .accordion-list li.active::before{
+    position: absolute;
+    left: -7px;
+    top: 27px;
+    background:#1d4b98;
+    width: 16px;
+    height: 16px;
+    transform: rotate(45deg);
+    content:"";
+  }
+  .why-us-head h2{
+    font-weight: 600;
+    font-size: 300%;
+    color: #001433;
+  }
+  .spectrum-head h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color: #001433;
+    margin-bottom:1rem;
+  }
+  .cloud-spectrum{
+    background-color: #f5f7fb;
+  }
+  .cloud-accordian h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color: #001433;
+    max-width: 900px;
+    margin: 0 auto 1rem;
+  }
+  .deliver-img-wrapper{
+    margin-bottom: 2rem;
+  }
+  .why-us{
+    background-color: #f5f7fb;
+  }
+  .why-us-head h2{
+    font-weight: 600;
+    font-size: 300%;
+    color: #001433;
+    margin-bottom:1rem;
+    text-align: center;
+  }
+  .why-us-head p{
+    text-align: center;
+    margin-bottom:2rem;
+  }
+  .cm-why-us-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cm-why-us-wrapper .why-us-card{
+    padding:20px;
+    background-color: #fff;
+    border:1px solid #ddd;
+    border-radius: 8px;
+    margin-right:20px;
+    width: calc((100% - 60px)/4);
+  }
+  .cm-why-us-wrapper .why-us-card:nth-child(4){
+    margin-right:0;
+  }
+  .cm-why-us-wrapper .why-us-card h4{
+    font-weight: 600;
+    color: #001433;
+    font-size: 120%;
+  }
+  .why-us-cloud{
+    margin-bottom:2rem;
+  }
+  .join-us-wrapper .btn{
+    width: 14%;
+  }
+  .faq-head h2{
+    font-weight: 600;
+    font-size: 300%;
+    color: #001433;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    border:1px solid #ddd;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .faq-question {
+    background: #f9f9f9;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    outline: none;
+    font-weight: 600;
+  }
+  
+  .faq-question .icon {
+    position: absolute;
+    right: 15px;
+    font-size: 24px;
+    top: 18%;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 15px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .faq-answer p{
+    font-size: 15px;
+  }
+  
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+  
+  .faq-item.active .faq-question .icon {
+    transform: rotate(45deg);
+  }
+  .cloud-experience{
+    background-color: #f5f7fb;
+  }
+  .experience-head h2{
+    font-weight: 600;
+    font-size: 300%;
+    color: #001433;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .experience-head .experience-content p{
+    text-align: center;
+    margin-bottom:0;
+  }
+  .join-us-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .join-us-wrapper h3{
+    font-size: 120%;
+    font-weight: 600;
+    margin-right:20px;
+  }
+  .btn:hover{
+    color:#fff;
+  }
+@media screen and (min-width: 2500px) {
+    body {
+        max-width: 2500px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+    /* large devices */
+    .spectrum-head h2 {
+        margin-bottom:2rem;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    /* large devices */
+    .spectrum-head h2 {
+        margin-bottom:2rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .service-content h2{
+        font-size: 200%;
+    }
+    .spectrum-head h2{
+        font-size: 200%;
+        max-width: 400px;
+        margin: 0 auto 1rem;
+    }
+    .tab{
+        padding: 20px 10px;
+    }
+    .cloud-spectrum .content h3 {
+        margin-top:1rem;
+    }
+    .cloud-accordian h2{
+        font-size: 200%;
+    }
+    .accordion-list li {
+        padding: 15px 1rem;
+    }
+    .right-div {
+        width: 44%;
+    }
+    .why-us-head h2{
+        font-size: 200%;
+    }
+    .why-us-card{
+        width: calc((100% - 30px) / 2);
+        margin-bottom:30px;
+    }
+    .why-us-card:nth-child(2){
+        margin-right:0;
+    }
+    .why-us-wrapper{
+        flex-wrap: wrap;
+    }
+    .experience-head h2{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    /* ipad-air */
+    .service-content h2{
+        font-size: 200%;
+    }
+    .spectrum-head h2{
+        font-size: 200%;
+        max-width: 400px;
+        margin: 0 auto 1rem;
+    }
+    .tab{
+        padding: 20px 10px;
+    }
+    .cloud-spectrum .content h3 {
+        margin-top:1rem;
+    }
+    .cloud-accordian h2{
+        font-size: 200%;
+    }
+    .accordion-list li {
+        padding: 15px 1rem;
+    }
+    .right-div {
+        width: 44%;
+    }
+    .why-us-head h2{
+        font-size: 200%;
+    }
+    .why-us-card{
+        width: calc((100% - 30px) / 2);
+        margin-bottom:30px;
+    }
+    .why-us-card:nth-child(2){
+        margin-right:0;
+    }
+    .why-us-wrapper{
+        flex-wrap: wrap;
+    }
+    .experience-head h2{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 569px) and (max-width: 768px) {
+    /* ipad-mini */
+    .service-content h2{
+        font-size: 200%;
+    }
+    .spectrum-head h2{
+        font-size: 200%;
+        max-width: 400px;
+        margin: 0 auto 1rem;
+    }
+    .tab{
+        padding: 20px 10px;
+    }
+    .cloud-spectrum .content h3 {
+        margin-top:1rem;
+    }
+    .cloud-accordian h2{
+        font-size: 200%;
+    }
+    .accordion-list li {
+        padding: 15px 1rem;
+    }
+    .right-div {
+        width: 44%;
+    }
+    .why-us-head h2{
+        font-size: 200%;
+    }
+    .why-us-card{
+        width: calc((100% - 30px) / 2);
+        margin-bottom:30px;
+    }
+    .why-us-card:nth-child(2){
+        margin-right:0;
+    }
+    .why-us-wrapper{
+        flex-wrap: wrap;
+    }
+    .experience-head h2{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+    /* mobile devices */
+    .service-content h2{
+        font-size: 200%;
+    }
+    .spectrum-head h2{
+        font-size: 200%;
+    }
+    .tabs{
+       flex-direction: column;
+    }
+    .tab{
+        display: block;
+        width: 100%;
+        padding: 8px 20px;
+    }
+    .card-icon-wrapper{
+        display: none;
+    }
+    .card-content p{
+        display: none;
+    }
+    #tab4{
+        margin-left: 0;
+    }
+    .cloud-spectrum .content.active{
+        margin-right:0;
+    }
+    .card-content h4{
+        margin-bottom:0;
+        text-align: center;
+    }
+    .card-content{
+        padding:10px 0;
+    }
+    .cloud-spectrum .content h3, .cloud-spectrum .content p{
+        text-align: center;
+    }
+    .cloud-accordian h2{
+        font-size: 200%;
+    }
+    .accordian-wrapper{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .left-div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .right-div{
+        width: 100%;
+    }
+    .accordion-list li.active::before{
+        display: none;
+    }
+    .why-us-head h2{
+        font-size: 200%;
+    }
+    .why-us-wrapper{
+        flex-wrap: wrap;
+    }
+    .why-us-card{
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .faq-question .icon {
+        right:5px;
+    }
+    .experience-head h2{
+        font-size: 200%;
+    }
+    .join-us-wrapper{
+        flex-wrap: wrap;
+    }
+    .join-us-wrapper h3{
+        margin-right:0;
+        margin-top:1rem;
+        text-align:center;
+    }
+}

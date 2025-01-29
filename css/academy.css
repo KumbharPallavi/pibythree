@@ -1,0 +1,126 @@
+.innovators-head h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+}
+.innovators-head h3{
+    font-weight: 600;
+    font-size: 150%; 
+}
+.grow-content h3{
+    margin-top: 2rem;
+}
+.innovators-head p{
+    text-align: center;
+}
+.grow-head h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+}
+.grow-head p{
+    text-align: center;
+}
+.grow{
+    background-color:#f5f7fb;
+}
+.grow-content h3{
+    font-weight: 600;
+}
+.join-us h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+}
+.join-us{
+    overflow:hidden;
+}
+.grow-content{
+    overflow: hidden;
+}
+.grow-head{
+    overflow: hidden;
+}
+.innovators-head{
+    overflow: hidden;
+}
+@media screen and (min-width: 2500px) {
+    body {
+        max-width: 2500px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+    /* large devices */
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    /* large devices */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .innovators-head h2{
+        font-size: 200%;
+    }
+    .innovators-head h3 {
+        font-size: 135%;
+    }
+    .grow-head h2{
+        font-size: 200%;
+    }
+    .join-us h2{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    /* ipad-air */
+    .innovators-head h2{
+        font-size: 200%;
+    }
+    .innovators-head h3 {
+        font-size: 135%;
+    }
+    .grow-head h2{
+        font-size: 200%;
+    }
+    .join-us h2{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 569px) and (max-width: 768px) {
+    /* ipad-mini */
+    .innovators-head h2{
+        font-size: 200%;
+    }
+    .innovators-head h3 {
+        font-size: 135%;
+    }
+    .grow-head h2{
+        font-size: 200%;
+    }
+    .join-us h2{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+    /* mobile devices */
+    .innovators-head h2{
+        font-size: 200%;
+    }
+    .innovators-head h3 {
+        font-size: 135%;
+    }
+    .grow-head h2{
+        font-size: 200%;
+    }
+    .join-us h2{
+        font-size: 200%;
+    }
+}

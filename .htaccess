@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Route requests with slugs to blog-single.php
+    RewriteRule ^blog-single.php/([a-zA-Z0-9_-]+)$ blog-single.php?slug=$1 [L,QSA]
+
+    # Access files without .php
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^(.*)$ $1.php  [NC,L]
+
+    # Handle Front Controller for other requests
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

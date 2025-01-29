@@ -1,0 +1,343 @@
+.terms-introduction .effective-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+ .introduction-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+
+.definitions-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.eligibility-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.user-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.prohibited-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.intellectual-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.privacy-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.limitation-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.indemnification-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.termination-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.governing-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.modifications-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.disclaimer-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.third-party-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.force-majeure-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.contact-information-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+
+@media screen and (min-width: 2500px){
+    body {
+        max-width: 2500px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+   /* large devices */
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    /* large devices */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+     /* ipad-pro */
+     
+     .terms-introduction .effective-head h3{
+        font-size:150%;
+     }
+    
+     .introduction-head h3{
+        font-size:150%;
+     }
+     .definitions-head h3{
+        font-size:150%;
+     }
+     .eligibility-head h3{
+        font-size:150%;
+     }
+     .user-head h3{
+        font-size:150%;
+     }
+     .prohibited-head h3{
+        font-size:150%;
+     }
+     .intellectual-head h3{
+        font-size:150%;
+     }
+     .privacy-head h3{
+        font-size:150%;
+     }
+     .limitation-head h3{
+        font-size:150%;
+     }
+     .indemnification-head h3{
+        font-size:150%;
+     }
+     .termination-head h3{
+        font-size:150%;
+     }
+     .governing-head h3{
+        font-size:150%;
+     }
+     .modifications-head h3{
+        font-size:150%;
+     }
+     .disclaimer-head h3{
+        font-size:150%;
+     }
+     .third-party-head h3{
+        font-size:150%;
+     }
+     .force-majeure-head h3{
+        font-size:150%;
+     }
+     .contact-information-head h3{
+        font-size:150%;
+     }
+    }
+
+@media (min-width: 769px) and (max-width: 991px) {
+     /* ipad-air */
+     .terms-introduction .effective-head h3{
+        font-size:150%;
+     }
+    
+     .introduction-head h3{
+        font-size:150%;
+     }
+     .definitions-head h3{
+        font-size:150%;
+     }
+     .eligibility-head h3{
+        font-size:150%;
+     }
+     .user-head h3{
+        font-size:150%;
+     }
+     .prohibited-head h3{
+        font-size:150%;
+     }
+     .intellectual-head h3{
+        font-size:150%;
+     }
+     .privacy-head h3{
+        font-size:150%;
+     }
+     .limitation-head h3{
+        font-size:150%;
+     }
+     .indemnification-head h3{
+        font-size:150%;
+     }
+     .termination-head h3{
+        font-size:150%;
+     }
+     .governing-head h3{
+        font-size:150%;
+     }
+     .modifications-head h3{
+        font-size:150%;
+     }
+     .disclaimer-head h3{
+        font-size:150%;
+     }
+     .third-party-head h3{
+        font-size:150%;
+     }
+     .force-majeure-head h3{
+        font-size:150%;
+     }
+     .contact-information-head h3{
+        font-size:150%;
+     }
+    }
+
+@media (min-width: 569px) and (max-width: 768px){
+/* ipad-mini */
+.terms-introduction .effective-head h3{
+    font-size:150%;
+ }
+
+ .introduction-head h3{
+    font-size:150%;
+ }
+ .definitions-head h3{
+    font-size:150%;
+ }
+ .eligibility-head h3{
+    font-size:150%;
+ }
+ .user-head h3{
+    font-size:150%;
+ }
+ .prohibited-head h3{
+    font-size:150%;
+ }
+ .intellectual-head h3{
+    font-size:150%;
+ }
+ .privacy-head h3{
+    font-size:150%;
+ }
+ .limitation-head h3{
+    font-size:150%;
+ }
+ .indemnification-head h3{
+    font-size:150%;
+ }
+ .termination-head h3{
+    font-size:150%;
+ }
+ .governing-head h3{
+    font-size:150%;
+ }
+ .modifications-head h3{
+    font-size:150%;
+ }
+ .disclaimer-head h3{
+    font-size:150%;
+ }
+ .third-party-head h3{
+    font-size:150%;
+ }
+ .force-majeure-head h3{
+    font-size:150%;
+ }
+ .contact-information-head h3{
+    font-size:150%;
+ }
+}
+
+
+@media (min-width: 320px) and (max-width: 568px){
+ /* mobile devices */
+ .terms-introduction .effective-head h3{
+    font-size:150%;
+ }
+
+ .introduction-head h3{
+    font-size:150%;
+ }
+ .definitions-head h3{
+    font-size:150%;
+ }
+ .eligibility-head h3{
+    font-size:150%;
+ }
+ .user-head h3{
+    font-size:150%;
+ }
+ .prohibited-head h3{
+    font-size:150%;
+ }
+ .intellectual-head h3{
+    font-size:150%;
+ }
+ .privacy-head h3{
+    font-size:150%;
+ }
+ .limitation-head h3{
+    font-size:150%;
+ }
+ .indemnification-head h3{
+    font-size:150%;
+ }
+ .termination-head h3{
+    font-size:150%;
+ }
+ .governing-head h3{
+    font-size:150%;
+ }
+ .modifications-head h3{
+    font-size:150%;
+ }
+ .disclaimer-head h3{
+    font-size:150%;
+ }
+ .third-party-head h3{
+    font-size:150%;
+ }
+ .force-majeure-head h3{
+    font-size:150%;
+ }
+ .contact-information-head h3{
+    font-size:150%;
+ }
+}

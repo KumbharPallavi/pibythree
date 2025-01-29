@@ -1,0 +1,173 @@
+
+.efficiency-control-head h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+    margin-bottom: 1rem;
+    overflow:hidden;
+
+}
+.efficiency-control-content p{
+    overflow: hidden;
+}
+.cloud-head h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin: 2rem 0 1rem;
+    overflow: hidden;
+}
+.nav-tabs .nav-link {
+    margin-right: 5px;
+  }
+  
+  .tab-content {
+    padding: 10px;
+    border: 1px solid #1d4b98;
+    border-top: none;
+  }
+  .cloud-finops li.nav-item {
+    width: 16.6%;
+    text-align: center;
+}
+.cloud-finops a#parent-tab2 {
+    padding: 5px 27px;
+}
+.nav-tabs .nav-link{
+    padding: 5px 23px;
+    color:#000;
+}
+.cloud-finops a#parent-tab6 {
+    padding: 5px 40px;
+}
+.cloud-finops a#parent-tab5 {
+    padding: 5px 22px;
+}
+.cloud-head ul{
+    padding: 0;
+    overflow: hidden;
+}
+.nav-tabs .nav-link.active{
+    color: #fff;
+    background-color: #1d4b98;
+    border-color:#1d4b98;
+}
+.cloud-journey{
+    overflow: hidden;
+}
+@media screen and (min-width: 2500px){
+
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+    .nav-tabs .nav-link {
+        padding: 5px 37px;
+    }
+    .cloud-finops #parent-tab6 {
+        padding: 5px 50px;
+    }
+    a#parent-tab2 {
+        padding: 5px 50px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    .nav-tabs .nav-link {
+        padding: 5px 37px;
+    }
+    .cloud-finops a#parent-tab6 {
+        padding: 5px 50px;
+    }
+    a#parent-tab2 {
+        padding: 5px 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .cloud-consult-head h2{
+        font-size: 200%;
+    }
+    .efficiency-control-head h2{
+        font-size: 200%;
+    }
+    .cloud-head h3{
+        font-size:150%;
+     }
+     .cloud-finops li.nav-item {
+        width: 33.33%;
+    }
+    .nav-tabs .nav-item{
+        border: 1px solid #ddd;
+    }
+    .nav-tabs .nav-link{
+        border:unset !important;
+        padding: 8px 92px;
+        margin-right:0;
+    }
+    }
+    @media (min-width: 769px) and (max-width: 991px) {
+        /* ipad-air */
+        .cloud-consult-head h2{
+            font-size: 200%;
+        }
+        .efficiency-control-head h2{
+            font-size: 200%;
+        }
+        .cloud-head h3{
+            font-size:150%;
+         }
+        .cloud-finops li.nav-item {
+            width: 33.33%;
+        }
+        .nav-tabs .nav-item{
+            border: 1px solid #ddd;
+        }
+        .nav-tabs .nav-link{
+            border:unset !important;
+            padding: 8px 52px;
+            margin-right:0;
+        }
+    }
+    @media (min-width: 569px) and (max-width: 768px){
+        /* ipad-mini */
+        .cloud-consult-head h2{
+            font-size: 200%;
+        }
+        .efficiency-control-head h2{
+            font-size: 200%;
+        }
+        .cloud-head h3{
+            font-size:150%;
+         }
+        .cloud-finops li.nav-item {
+            width: 33.33%;
+        }
+        .nav-tabs .nav-item{
+            border: 1px solid #ddd;
+        }
+        .nav-tabs .nav-link{
+            border:unset !important;
+            padding: 8px 52px;
+            margin-right:0;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 568px){
+        /* mobile devices */
+        .cloud-consult-head h2{
+            font-size: 200%;
+        }
+        .efficiency-control-head h2{
+            font-size: 200%;
+        }
+        .cloud-head h3{
+            font-size:150%;
+         }
+         .cloud-finops li.nav-item{
+            width:100%;
+         }
+         .nav-tabs .nav-link{
+            padding:12px;
+         }
+    }

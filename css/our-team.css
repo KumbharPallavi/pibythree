@@ -1,0 +1,54 @@
+.our-team{
+    background-color: #fff;
+}
+.our-team h2{
+    color:#000;
+}
+.our-team-content{
+    padding:0 90px;
+}
+.our-team-content h3{
+    font-size: 200%;
+}
+@media screen and (min-width: 2500px) {
+    body {
+        max-width: 2500px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+    /* large devices */
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    /* large devices */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .our-team-content {
+        padding: 0 60px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    /* ipad-air */
+    .our-team-content {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 569px) and (max-width: 768px) {
+    /* ipad-mini */
+    .our-team-content {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+    /* mobile devices */
+    .our-team-content {
+        padding: 0 10px;
+    }
+}
+

@@ -1,0 +1,1111 @@
+header.about-us {
+    /* background: #2ea3dc url("../images/about-us/header_bg.svg"); */
+    /* background: #d1d9dd; */
+    /* background: #d1d9dd url("../images/about-us-banner.png"); */
+    background:#fff;
+    background-position: center 70%;
+}
+.about-banner{
+    margin-bottom: 1rem;
+    /* background: #d1d9dd url("../images/about-us-banner.png"); */
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+    height:auto;
+    aspect-ratio: auto 1263/425;
+}
+.banner-text-wrapper{
+    position: absolute;
+    left: 7%;
+    top: 45%;
+}
+.banner-head h2{
+    text-align: center;
+    color:#fff;
+    font-size: 300%;
+    font-weight: 600;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.welcome-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-img-wrapper{
+    width: 48%;
+}
+.welcome-content{
+    width: 50%;
+    overflow: hidden;
+}
+.welcome-content label{
+    color:#2ea3dc;
+    margin-bottom:1rem;
+}
+.welcome-content h2{
+    color: #001433;
+    font-size: 300%;
+    font-weight: 600;
+    margin-bottom:1rem;
+}
+.gradient{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    position: relative;
+}
+.gradient:before {
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff 87%);
+    bottom: -20px;
+    content: "";
+    height: 300px;
+    left: 0;
+    position: absolute;
+    width: calc(100% + 3.5px);
+    z-index: 11;
+}
+.year-started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.years{
+    padding: 12px 24px;
+    background-color: #1d4b98;
+    border-radius: 8px;
+    color:#fff;
+    font-size: 250%;
+    font-weight: 600;
+}
+.yellow{
+    color: #f7ba16;
+}
+.start-year{
+    font-size: 250%;
+}
+.year-started .content{
+    margin-left:20px;
+    font-weight: 600;
+    display: block;
+}
+.core-values-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.core-value{
+    width: 50%;
+}
+.welcome-content p{
+    margin-bottom:1.5rem;
+}
+.our-story{
+    background-color:#f5f7fb;
+}
+.our-story h3{
+    font-size: 180%;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-top:2rem;
+}
+.our-team{
+    background-color:#fff;
+   
+}
+
+.team-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.team-card{
+    width: calc((100% - 40px) / 3);
+    margin-right: 20px;
+    padding:30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.team-content label{
+    color:#2ea3dc;
+}
+.team-contact{
+    background-color: #1d4b98;
+    padding: 20px;
+    width: 100%;
+    color:#fff;
+    text-align: center;
+}
+.team-contact .fa-linkedin{
+    color:#fff;
+    font-size: 18px;
+}
+.team-content{
+    margin-top:20px;
+}
+.team-content label{
+    color:#2ea3dc
+}
+.team-content h2{
+    color:#1d4b98;
+    font-size: 120%;
+    font-weight: 600;
+}
+.team-head h2{
+    color:#1d4b98;
+    text-align: center;
+    margin-bottom:2rem;
+    font-weight: 600;
+    font-size: 300%;
+    overflow: hidden;
+}
+.margin-box{
+    padding:38rem;
+}
+.pattern-bg{
+    background: url("../images/about-us/topography-background.png") repeat #282e67;
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    position: relative;
+    z-index: 0;
+    margin-top:-75rem;
+}
+.vision-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.vision-img-wrapper{
+    width: calc((100% - 40px)/3);
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.vision-img-wrapper img{
+    border-radius: 8px;
+}
+.vision-img-wrapper:nth-child(3){
+    margin-right:0;
+}
+.circle-bg .thumb-one {
+    position: absolute;
+    top: 2%;
+    width: 17%;
+    height: auto;
+    aspect-ratio: auto 417 / 417;
+}
+.circle-bg .thumb-two {
+    position: absolute;
+    top: 28%;
+    left:8%;
+    width: 17%;
+    height: auto;
+    aspect-ratio: auto 417 / 417;
+}
+.circle-bg .thumb-three {
+    position: absolute;
+    top: 72%;
+    left: 2%;
+    width: 17%;
+    height: auto;
+    aspect-ratio: auto 417 / 417;
+}
+.circle-bg .thumb-four {
+    position: absolute;
+    top: 70%;
+    left: 61%;
+    width: 17%;
+    height: auto;
+    aspect-ratio: auto 417 / 417;
+}
+.circle-bg .thumb-five {
+    position: absolute;
+    top: 43%;
+    left: 92%;
+    width: 17%;
+    height: auto;
+    aspect-ratio: auto 417 / 417;
+}
+.circle-bg .thumb {
+    animation: spineer 2s ease 0s infinite normal none running;
+    border-radius: 50%;
+    cursor: pointer;
+    /* height: 60px; */
+    position: absolute;
+    /* width: 60px; */
+}
+.mission-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.objective-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-vision{
+    /* background-color:#f5f7fb; */
+    background-color:#282e67;
+}
+.vision-head, .mission-head, .objective-head{
+    width: 35%;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+}
+.vision-head h3, .mission-head h3, .objective-head h3{
+    color:#1d4b98;
+}
+.vision-head h3{
+    font-size: 300%;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 2rem;
+    text-align: center;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vision-content p{
+    max-width: 580px;
+    margin:0 auto 1rem;
+    text-align: center;
+}
+.global-presence{
+    background-color:#fff;
+}
+.gobal-presence-head h2{
+    color:#1d4b98;
+}
+.global-presence-content p{
+    max-width: 650px;
+    margin-bottom: 2rem;
+}
+.global-map{
+    display: flex;
+    margin-top:2rem;
+}
+.global-presence-content .btn{
+    height:unset;
+}
+.texas-map, .australia-map, .india-map{
+    margin-right:20px;
+    padding:10px;
+    background-color: #282e67;
+    border-radius:12px;
+    overflow: hidden;
+}
+.gobal-presence-head h2{
+    font-weight: 600;
+    font-size: 300%;
+}
+.contact-us{
+    color:#fff;
+    border:unset;
+   background-color: transparent;
+   text-align: center;
+}
+.global-presence-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.global-presence-content p{
+    width: 82%;
+}
+.global-presence-content a{
+    display: inline-block;
+    padding: 1.145rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1;
+    outline: none;
+    align-items: center;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    font-weight: 600;
+    overflow: hidden;
+    width: 15%;
+    background-color: #282e67;
+    color: #fff;
+    border-radius: 8px;
+}
+.global-presence-content a:hover{
+    color:#fff;
+}
+.client-words-wrapper{
+    display: flex;
+    align-items: center;
+}
+.slider-img-wrapper{
+    width: 50%;
+    overflow: hidden;
+}
+.client-slider-wrapper{
+    width: 50%;
+}
+.client-slider-wrapper{
+    background: url("../images/about-us/map-bg-light.png") no-repeat 50%;
+    background-size: auto;
+    padding: 90px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.client-img-wrapper img{
+    width: 100%;
+    height:auto;
+    aspect-ratio:auto 632/632;
+    border-radius: 50%;
+}
+.client-img-wrapper{
+    width: 15%;
+}
+.client-details{
+    display: flex;
+    justify-content: center;
+}
+.client{
+    text-align: left;
+    margin-left:20px;
+}
+.client h3{
+    color:#282e67;
+    font-size: 120%;
+    font-weight: 600;
+}
+.stars{
+    color:#f7ba16;
+}
+.owl-nav{
+    position: absolute;
+    bottom: -52%;
+    left: 39%;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    margin:0 15px;
+}
+.partner-head{
+    overflow:hidden;
+}
+.partner-head h2{
+    text-align: center;
+    font-weight: 600;
+    color: #1d4b98;
+    margin-bottom:2rem;
+    font-size: 300%;
+}
+.partner-slider{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 28px;
+}
+.partner{
+    background-color:#f5f7fb;
+}
+.img-partner img {
+    background-color: #fff;
+    cursor: pointer;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    mix-blend-mode: multiply;
+    opacity: .5;
+    transition: all .25s linear;
+}
+.img-partner img:hover {
+    box-shadow: 0 0 38px 0 rgba(0, 0, 0, .09);
+    filter: unset;
+    -webkit-filter: unset;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    transform: translateY(-3px);
+}
+.owl-carousel .owl-stage {
+    display: flex;
+}
+.about-us-partner-slider .owl-item {
+    width: 100%; /* Each item should take full width on mobile */
+}
+.start-head h2{
+    font-weight: 600;
+    color: #1d4b98;
+    margin-bottom:1rem;
+    font-size: 300%;
+}
+.start-head p{
+    max-width: 850px;
+}
+.start-head label{
+    color: #2ea3dc;
+    padding-bottom:2rem;
+}
+.start-head a{
+    display: inline-block;
+    padding: 1.145rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1;
+    outline: none;
+    align-items: center;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    font-weight: 600;
+    overflow: hidden;
+    width: 15%;
+    background-color: #282e67;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.start-head a:after {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    content: "";
+    left: 0;
+    opacity: 0;
+    padding-top: 100%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) scale(0);
+    transform-origin: bottom center;
+    transition: transform 0s .4s, opacity .4s
+}
+.start-head a:hover{
+    color:#fff;
+}
+.btn.btn-light:after {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.btn span {
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+
+.btn .outer-wrap,
+.btn span {
+    transition: transform .5s cubic-bezier(.65, 0, .35, 1)
+}
+
+.btn .outer-wrap {
+    overflow: hidden;
+}
+
+.btn:hover .outer-wrap span {
+    transform: translateY(110%);
+}
+
+.btn .outer-wrap span:before {
+    content: attr(data-text);
+    left: 0;
+    position: absolute;
+    top: -110%;
+    transition: transform .5s cubic-bezier(.65, 0, .35, 1);
+    width: 100%;
+}
+
+.btn:hover:after {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.25);
+    transition: transform .4s, opacity .2s;
+}
+
+.btn-rounded {
+    border-radius: 50px;
+}
+.contact-us{
+    font-weight: 600;
+}
+
+@keyframes spineer {
+    0% {
+        box-shadow: 0 0 0 0 #fc7952;
+    }
+
+    50% {
+        box-shadow: 0 0 0 20px rgba(1, 93, 199, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(1, 93, 199, 0);
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2400px) {
+    /* large devices */
+    header.about-us:before{
+        top: 26%;
+    }
+    .banner-text-wrapper {
+        top: 70%;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 1999px) {
+    /* large devices */
+    .banner-text-wrapper {
+        top: 63%;
+    }
+    header.about-us:before{
+        top: 29%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    /* ipad-pro */
+    .welcome-wrapper{
+        overflow: hidden;
+    }
+    header.about-us:before{
+        height: 171px;
+        top: 14.3%;
+    }
+    .banner-head h2{
+        margin-bottom: 3rem;
+    }
+    .banner-head h2 {
+        font-size: 270%;
+    }
+    .welcome-content h2{
+        font-size: 200%;
+    }
+    .welcome-content p {
+        font-size: 90%;
+    }
+    .core-value {
+        width: 100%;
+    }
+    .core-value h3{
+        font-size: 140%;
+    }
+    .core-value ul li{
+        font-size: 90%;
+    }
+    .years {
+        padding: 6px 10px;
+    }
+    .start-year {
+        font-size: 215%;
+    }
+    .our-story p{
+        font-size: 90%;
+        overflow: hidden;
+    }
+    .our-story h3 {
+        font-size: 150%;
+        overflow: hidden;
+    }
+    .team-head h2{
+        font-size: 200%;
+        margin-bottom: 1rem;
+    }
+    .team-card {
+        width: 75%;
+        overflow: hidden;
+    }
+    .team-content h2{
+        font-size: 135%;
+    }
+    .pattern-bg{
+        overflow: hidden;
+        margin-top: -80rem;
+    }
+    .margin-box {
+        padding: 41rem;
+    }
+    .vision-wrapper, .mission-wrapper, .objective-wrapper{
+        overflow: hidden;
+    }
+    .vision-head, .mission-head, .objective-head, .vision-img-wrapper{
+        overflow: hidden;
+        flex: 0 0 auto;
+    }
+    .vision-head h3{
+        font-size: 200%;
+    }
+    .gobal-presence-head h2{
+        font-size: 200%;
+    }
+    .global-presence-content{
+        overflow: hidden;
+    }
+    .global-presence-content p {
+        width: 79%;
+    }
+    .global-presence-content a{
+        width: 21%;
+        font-size: 90%;
+    }
+    .texas-map, .australia-map, .india-map{
+        width: 33%;
+    }
+    .india-map{
+        margin-right:0;
+    }
+    iframe{
+        width: 100%;
+    }
+    .partner-head h2{
+        font-size: 200%;
+    }
+    .start-head h2{
+        font-size: 200%;
+    }
+    .start-head p {
+        max-width: 650px;
+    }
+    .start-head a {
+        width: 22%;
+    }
+    .start-head label {
+        padding-bottom: 1rem;
+    }
+    .start-head a{
+        font-size: 90%;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1023px) {
+    .welcome-wrapper{
+        overflow: hidden;
+    }
+    header.about-us:before{
+        height: 171px;
+        top: 18.3%;
+    }
+    .banner-head h2{
+        margin-bottom: 3.5rem;
+        margin-top: 0;
+    }
+    .banner-head h2 {
+        font-size: 270%;
+    }
+    .welcome-content h2{
+        font-size: 200%;
+    }
+    .welcome-content p {
+        font-size: 90%;
+    }
+    .core-value {
+        width: 100%;
+    }
+    .core-value h3{
+        font-size: 140%;
+    }
+    .core-value ul li{
+        font-size: 90%;
+    }
+    .years {
+        padding: 6px 18px;
+    }
+    .start-year {
+        font-size: 215%;
+    }
+    .our-story p{
+        font-size: 90%;
+        overflow: hidden;
+    }
+    .our-story h3 {
+        font-size: 150%;
+        overflow: hidden;
+    }
+    .team-head h2{
+        font-size: 200%;
+        margin-bottom: 1rem;
+    }
+    .team-card {
+        width: 75%;
+        overflow: hidden;
+    }
+    .team-content h2{
+        font-size: 135%;
+    }
+    .pattern-bg{
+        overflow: hidden;
+        margin-top: -80rem;
+    }
+    .margin-box {
+        padding: 41rem;
+    }
+    .vision-wrapper, .mission-wrapper, .objective-wrapper{
+        overflow: hidden;
+    }
+    .vision-head, .mission-head, .objective-head, .vision-img-wrapper{
+        overflow: hidden;
+        flex: 0 0 auto;
+    }
+    .vision-head h3{
+        font-size: 200%;
+    }
+    .gobal-presence-head h2{
+        font-size: 200%;
+    }
+    .global-presence-content{
+        overflow: hidden;
+    }
+    .global-presence-content p {
+        width: 79%;
+    }
+    .global-presence-content a{
+        width: 21%;
+        font-size: 90%;
+    }
+    .texas-map, .australia-map, .india-map{
+        width: 33%;
+    }
+    .india-map{
+        margin-right:0;
+    }
+    iframe{
+        width: 100%;
+    }
+    .partner-head h2{
+        font-size: 200%;
+    }
+    .start-head h2{
+        font-size: 200%;
+    }
+    .start-head p {
+        max-width: 650px;
+    }
+    .start-head a {
+        width: 22%;
+    }
+    .start-head label {
+        padding-bottom: 1rem;
+    }
+    .start-head a{
+        font-size: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 819px) {
+    .about-banner{
+        margin-bottom:0;
+    }
+    .welcome-wrapper{
+        overflow: hidden;
+    }
+    header.about-us:before{
+        height: 171px;
+        top: 20.6%;
+    }
+    .banner-head h2{
+        margin-bottom: 0rem;
+    }
+    .banner-head h2 {
+        font-size: 270%;
+    }
+    .welcome-content h2{
+        font-size: 200%;
+    }
+    .welcome-content p {
+        font-size: 90%;
+    }
+    .core-value {
+        width: 100%;
+    }
+    .core-value h3{
+        font-size: 140%;
+    }
+    .core-value ul li{
+        font-size: 90%;
+    }
+    .years {
+        padding: 6px 10px;
+    }
+    .start-year {
+        font-size: 215%;
+    }
+    .our-story p{
+        font-size: 90%;
+        overflow: hidden;
+    }
+    .our-story h3 {
+        font-size: 150%;
+        overflow: hidden;
+    }
+    .team-head h2{
+        font-size: 200%;
+        margin-bottom: 1rem;
+    }
+    .team-content h2{
+        font-size: 135%;
+    }
+    .pattern-bg{
+        overflow: hidden;
+    }
+    .vision-wrapper, .mission-wrapper, .objective-wrapper{
+        overflow: hidden;
+    }
+    .vision-head, .mission-head, .objective-head, .vision-img-wrapper{
+        overflow: hidden;
+        flex: 0 0 auto;
+    }
+    .vision-head h3{
+        font-size: 200%;
+    }
+    .gobal-presence-head h2{
+        font-size: 200%;
+    }
+    .global-presence-content{
+        overflow: hidden;
+    }
+    .global-presence-content p {
+        width: 79%;
+    }
+    .global-presence-content a{
+        width: 21%;
+        font-size: 90%;
+    }
+    .texas-map, .australia-map, .india-map{
+        width: 33%;
+    }
+    .india-map{
+        margin-right:0;
+    }
+    iframe{
+        width: 100%;
+    }
+    .partner-head h2{
+        font-size: 200%;
+    }
+    .start-head h2{
+        font-size: 200%;
+    }
+    .start-head p {
+        max-width: 650px;
+    }
+    .start-head a {
+        width: 22%;
+    }
+    .start-head label {
+        padding-bottom: 1rem;
+    }
+    .start-head a{
+        font-size: 90%;
+    }
+    .owl-nav {
+        bottom: -30%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .banner-head h2 {
+        font-size: 200%;
+        margin-bottom: 2.5rem;
+    }
+    header.about-us:before{
+        height: 123px;
+    }
+    .welcome-wrapper{
+        flex-wrap: wrap; /* Prevent wrapping for horizontal scrolling */
+        overflow-x: auto; /* Add horizontal scroll */
+        overflow-y: hidden; /* Prevent vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+    }
+    .welcome-wrapper::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, and Edge */
+    }
+    .welcome-img-wrapper{
+        flex: 0 0 auto; /* Prevent automatic resizing */
+        width: 100%; /* Adjust width to make items fit in scrollable area */
+    }
+    .welcome-content{
+        width: 100%;
+    }
+    .welcome-section {
+        padding: 1rem; /* Reduce padding for small screens */
+    }
+    .gradient {
+        margin-right:0;
+    }
+    .welcome-content h2{
+        font-size: 200%;
+    }
+    .core-value{
+        width: 100%;
+    }
+    .team-head h2{
+        font-size: 200%;
+        margin-bottom:1rem;
+    }
+    .team-card-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: hidden; /* Add horizontal scroll */
+        overflow-y: hidden; /* Prevent vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+    }
+    .team-card {
+        width: 100%;
+        padding:20px;
+        overflow: hidden; /* Prevent scrollbars */
+        box-sizing: border-box; /* Include padding and borders within the width */
+        margin: 0 auto 2rem; /* Center the card if needed */
+        flex:0 0 auto;
+    }
+    .team-img-wrapper {
+        width: 100%;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+    }
+    .team-card::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, and Edge */
+    }
+    .teammate{
+        display: flex;
+        flex-direction: column; /* Stack vertically */
+        width: 100%;
+        overflow: hidden; /* Prevent scrolling */
+        box-sizing: border-box; /* Prevent content from overflowing due to padding */
+    }
+    .team-img-wrapper{
+        width: 100%;
+        margin-bottom:1rem;
+        box-sizing: border-box;
+    }
+    .team-card, .teammate {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        overflow-y: hidden; /* Prevent vertical scrolling */
+    }
+    .team-content{
+        width: 100%;
+        box-sizing: border-box; /* Prevent padding from causing overflow */
+    }
+    .team-card::-webkit-scrollbar,
+    .teammate::-webkit-scrollbar {
+        display: none; /* Hide scrollbars */
+    }
+    .team-img-wrapper img {
+        max-width: 100%; /* Prevent images from overflowing */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .team-content h2 {
+        font-size: 140%;
+    }
+    .team-contact {
+        padding:12px;
+    }
+    .team-contact .fa-linkedin {
+        font-size: 25px;
+    }
+    .pattern-bg{
+        margin-top:-117rem;
+        overflow: hidden;
+    }
+    .margin-box {
+        padding: 59rem;
+    }
+    .vision-wrapper{
+        flex-wrap: wrap;
+        overflow-x: auto; /* Add horizontal scroll */
+        overflow-y: hidden; /* Prevent vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+    }
+    .vision-wrapper::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, and Edge */
+    }
+    .vision-head, .mission-head, .objective-head{
+        width: 80%;
+        margin-bottom:2rem;
+    }
+    .vision-img-wrapper{
+        width: 100%;
+        margin:0 auto 2rem;
+        flex: 0 0 auto;
+    }
+    .vision-head h3{
+        font-size: 250%;
+    }
+    .mission-wrapper{
+        flex-wrap: wrap;
+        overflow-x: auto; /* Add horizontal scroll */
+        overflow-y: hidden; /* Prevent vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+        flex-direction: column-reverse;
+    }
+    .objective-wrapper{
+        flex-wrap: wrap;
+        overflow-x: auto; /* Add horizontal scroll */
+        overflow-y: hidden; /* Prevent vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+    }
+    .gobal-presence-head h2{
+        font-size: 200%;
+    }
+    .global-presence-content{
+        flex-wrap: wrap;
+    }
+    .global-presence-content p{
+        width: 100%;
+    }
+    .global-presence-content a{
+        width: 100%;
+    }
+    .global-map{
+        flex-wrap: wrap;
+    }
+    .texas-map, .australia-map, .india-map{
+        width: 94%;
+        margin: 0 auto 2rem auto;
+    }
+    iframe{
+        width:100%;
+    }
+    .client-words-wrapper{
+        flex-wrap: wrap;
+    }
+    .slider-img-wrapper{
+        width: 100%;
+    }
+    .client-slider-wrapper{
+        width: 100%;
+    }
+    .owl-nav {
+        left:36%;
+    }
+    .partner-head h2{
+        font-size: 200%;
+    }
+    .start-head h2{
+        font-size: 200%;
+    }
+    .start-head a {
+        width: 50%;
+    }
+}

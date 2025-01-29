@@ -1,0 +1,301 @@
+.partners-head h2{
+    text-align:center;
+    font-size: 300%;
+    font-weight: 600;
+}
+.accelerator-content h3{
+  font-weight: 600;
+}
+.partners-accordian .accordion-list li{
+  display: flex;
+  align-items: center;
+}
+.partners-accordian .accordion-list .partner-icon{
+  width: 28%;
+}
+.partners-accordian .accordion-list li {
+  padding: 7px 1rem;
+}
+.icon-name{
+  width:85%;
+  margin-left:20px
+}
+.delivery-head p{
+  color:#fff;
+}
+.accelerator-description li .align-head p{
+  color:#fff;
+}
+.partners-accordian .accelerator-description h3 {
+  font-size: 150%;
+}
+.partner-icon img{
+  width: 100%;
+  height: auto;
+  aspect-ratio:auto 738/321;
+}
+.mt-head p{
+  text-align: center;
+}
+
+.delivery-head {
+    background-color: #1d4b98;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+}
+.delivery-head p{
+    margin-bottom: 0px;
+}
+.align-head{
+     background-color: #1d4b98;
+     padding: 20px;
+     border-radius: 8px;
+     color: #fff;
+    
+}
+.sub-head{
+    background-color: #1d4b98;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 1rem;
+   
+}
+.sub-head p{
+  color:#fff;
+}
+.btn-contact {
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .btn.partners-btn{
+    width: 30%;
+  }
+  .contact-us-head {
+    max-width: 800px;
+    text-align: center;
+    margin: 2rem auto;
+    display: block;
+  }
+  
+
+  .unlock-head {
+    max-width: 800px;
+    text-align: center;
+    margin: 2rem auto;
+  }
+  .join-partner-eco-head {
+    margin: 0 auto 2rem;
+    display: block;
+    text-align: center;
+  }
+  .partners-accordian .right-div {
+    width: 44%;
+  }
+  .partners-accordian .left-div {
+    width: 52%;
+  }
+
+  
+  @media screen and (min-width: 2500px){
+    body {
+        max-width: 2500px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+   /* large devices */
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    /* large devices */
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  /* ipad-air */
+  .redhat-head h3{
+     font-size:150%;
+  }
+ 
+  .snowflake-head h3{
+     font-size:150%;
+  }
+  .azure-head h3{
+     font-size:150%;
+  }
+  .aazure-head h3{
+     font-size:150%;
+  }
+  .google-cloud-head h3{
+     font-size:150%;
+  }
+  .databricks-head h3{
+     font-size:150%;
+  }
+  .couchbase-head h3{
+     font-size:150%;
+  }
+  .matillion-head h3{
+     font-size:150%;
+  }
+  .dbt-labs-head h3{
+     font-size:150%;
+  }
+  .dataiku-head h3{
+     font-size:150%;
+  }
+  .flex-head{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .accordian-wrapper{
+    flex-wrap: wrap;
+      flex-direction: column-reverse;
+  }
+  .btn.partners-btn{
+    width: 30%;
+  }
+  .partners-accordian .right-div {
+    width: 100%;
+  }
+  .partners-accordian .left-div {
+    width: 100%;
+    padding: 1.5rem;
+  }
+ 
+ }
+
+ @media (min-width: 569px) and (max-width: 768px){
+  /* ipad-mini */
+ .redhat-head h3{
+  font-size:150%;
+}
+
+.snowflake-head h3{
+  font-size:150%;
+}
+.azure-head h3{
+  font-size:150%;
+}
+.aazure-head h3{
+  font-size:150%;
+}
+.google-cloud-head h3{
+  font-size:150%;
+}
+.databricks-head h3{
+  font-size:150%;
+}
+.couchbase-head h3{
+  font-size:150%;
+}
+.matillion-head h3{
+  font-size:150%;
+}
+.dbt-labs-head h3{
+  font-size:150%;
+}
+.dataiku-head h3{
+  font-size:150%;
+}
+
+.accordian-wrapper{
+  flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.partners-accordian .right-div {
+  width: 100%;
+}
+.partners-accordian .left-div {
+  width: 100%;
+}
+.btn.partners-btn{
+  width: 30%;
+}
+.contact-us-head p{
+  margin-bottom:0;
+}
+}
+
+
+
+  @media (min-width: 320px) and (max-width: 568px){
+    /* mobile devices */
+    .redhat-head h3{
+       font-size:150%;
+    }
+    .accelerator-content h3 {
+      font-size: 120%;
+    }
+    .partners-accordian .accelerator-description h3 {
+      font-size: 120%;
+  }
+  .partners-accordian .accelerator-description h3{
+      font-size: 120%;
+  }
+  .accelerator-description {
+      padding:1rem;
+  }
+  .partners-accordian .left-div{
+    margin-bottom:0;
+  }
+  .contact-us-head {
+    margin: 15px auto;
+  }
+  .cloud-accordian.mb{
+    padding-bottom:0;
+  }
+    .snowflake-head h3{
+       font-size:150%;
+    }
+    .azure-head h3{
+       font-size:150%;
+    }
+    .aazure-head h3{
+       font-size:150%;
+    }
+    .google-cloud-head h3{
+       font-size:150%;
+    }
+    .databricks-head h3{
+       font-size:150%;
+    }
+    .couchbase-head h3{
+       font-size:150%;
+    }
+    .matillion-head h3{
+       font-size:150%;
+    }
+    .dbt-labs-head h3{
+       font-size:150%;
+    }
+    .dataiku-head h3{
+       font-size:150%;
+    }
+    .accordian-wrapper{
+      flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .partners-accordian .right-div {
+      width: 100%;
+    }
+    .partners-accordian .left-div {
+      width: 100%;
+    }
+    
+
+    
+    .btn.partners-btn{
+      width:55%;
+    }
+    
+   }
+   @media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .btn.partners-btn{
+      width: 37%;
+    }
+  }

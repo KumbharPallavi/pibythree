@@ -1,0 +1,128 @@
+.ml-ai-head h2{
+    font-weight: 600;
+    font-size: 300%;
+    color:#001433;
+    text-align: center;
+}
+.ml-ai-head label{
+    text-align: center;
+    color: #2ea3dc;
+    margin-bottom: 1rem;
+}
+.ml-ai-head{
+    text-align: center;
+}
+.ml-ai-head p{
+    max-width: 950px;
+    margin:0 auto;
+}
+.tab {
+    width: calc((100% - 30px) / 3);
+}
+.spectrum-head h2{
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+.cm-why-us-wrapper{
+    flex-wrap: wrap;
+}
+.cm-why-us-wrapper .why-us-card{
+    margin-bottom:20px;
+}
+.cm-why-us-wrapper .why-us-card:nth-child(8){
+    margin-right:0;
+}
+
+@media screen and (min-width: 2500px) {
+    body {
+        max-width: 2500px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+    /* large devices */
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    /* large devices */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* ipad-pro */
+    .why-us-card:nth-child(6){
+        margin-right:0;
+    }
+    .faq-head h2{
+        font-size: 200%;
+    }
+    .ml-ai-head h2{
+        font-size: 200%;
+    }
+    .join-us-wrapper h3 {
+        max-width: 550px;
+    }
+    .spectrum-head h2 {
+        max-width: 400px;
+    }
+    .experience-head h2{
+        margin-bottom:0;
+    }
+    .why-us-head h2{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    /* ipad-air */
+    .why-us-card:nth-child(6){
+        margin-right:0;
+    }
+    .faq-head h2{
+        font-size: 200%;
+    }
+    .ml-ai-head h2{
+        font-size: 200%;
+    }
+    .join-us-wrapper h3 {
+        max-width: 550px;
+    }
+    .spectrum-head h2 {
+        max-width: 400px;
+    }
+    .experience-head h2{
+        margin-bottom:0;
+    }
+}
+
+@media (min-width: 569px) and (max-width: 768px) {
+    /* ipad-mini */
+    .why-us-card:nth-child(6){
+        margin-right:0;
+    }
+    .faq-head h2{
+        font-size: 200%;
+    }
+    .ml-ai-head h2{
+        font-size: 200%;
+    }
+    .join-us-wrapper h3 {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+    /* mobile devices */
+    .ml-ai-head h2{
+        font-size: 200%;
+    }
+    .tab{
+        width: 100%;
+    }
+    .why-us{
+        padding-top:0 !important;
+    }
+    .faq-head h2{
+        font-size: 200%;
+    }
+}
