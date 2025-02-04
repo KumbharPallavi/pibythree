@@ -52,7 +52,7 @@
                     <div class="row">
                         <div class="col-12 p-0">
                             <div class="banner-img">
-                                <img src="images/careers-banner.jpg" class="img-fluid" alt="careers-banner">
+                                <img src="images/career-banner.jpg" class="img-fluid" alt="careers-banner">
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                  if ($result->num_rows > 0) {
                      while($row = $result->fetch_assoc()) {
                       $pdf_file_url = 'admin/career_post/' . $row['pdf_file']; ?>
-                     <div class="careers-card">
+                     <div class="careers-card" data-aos="fade-right">
                       <div class="type-wrapper">
                             <label><?php echo $row['type']; ?></label>
                             <label><?php echo $row['location']; ?></label>

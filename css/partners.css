@@ -12,6 +12,7 @@
 }
 .partners-accordian .accordion-list .partner-icon{
   width: 28%;
+  margin:0 7rem;
 }
 .partners-accordian .accordion-list li {
   padding: 7px 1rem;

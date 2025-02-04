@@ -48,7 +48,7 @@
     overflow:hidden;
 }
 .careers-card{
-    width: calc((100% - 80px) / 3);
+    width: calc((100% - 120px) / 3);
     margin-right: 40px;
     background-color: #fff;
     padding:20px 30px;   
@@ -57,7 +57,7 @@
     overflow: hidden;
 }
 .careers-card:nth-child(3), .careers-card:nth-child(6), .careers-card:nth-child(9){
-    margin-right:0;
+    /* margin-right:0; */
 }
 .submit_request{
     width: 24%;
@@ -121,6 +121,8 @@
 }
 .careers-card{
     border: 3px solid #282e67;
+    overflow: hidden;
+    box-shadow: 13px 15px 5px 0 rgba(0, 0, 0, .2);
 }
 .popup {
     display: none; /* Hidden by default */
@@ -247,8 +249,8 @@ input{
         margin-right: 20px;
         padding: 18px 16px;
     }
-    .careers-card:nth-child(2), .careers-card:nth-child(4), .careers-card:nth-child(8){
-        margin-right:0;
+    .careers-card:nth-child(2), .careers-card:nth-child(4), .careers-card:nth-child(6), .careers-card:nth-child(8){
+        margin-right: 14px;
     }
     .pattern-bg {
         margin-top: -56rem;
@@ -282,8 +284,8 @@ input{
         margin-right: 20px;
         padding: 18px 16px;
     }
-    .careers-card:nth-child(2), .careers-card:nth-child(4), .careers-card:nth-child(8){
-        margin-right:0;
+    .careers-card:nth-child(2), .careers-card:nth-child(4), .careers-card:nth-child(6), .careers-card:nth-child(8){
+        margin-right:14px;
     }
     .careers-card h3 {
         font-size: 105%;
@@ -315,8 +317,8 @@ input{
         margin-right: 20px;
         padding: 22px 18px;
     }
-    .careers-card:nth-child(2), .careers-card:nth-child(4), .careers-card:nth-child(8){
-        margin-right:0;
+    .careers-card:nth-child(2), .careers-card:nth-child(4), .careers-card:nth-child(6), .careers-card:nth-child(8){
+        margin-right:14px;
     }
     .careers-card h3 {
         font-size: 105%;
@@ -352,7 +354,7 @@ input{
     }
     .careers-card{
         width: 100%;
-        margin-right:0;
+        margin-right: 14px;
         overflow: hidden;
     }
     .pattern-bg{

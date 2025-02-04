@@ -21,7 +21,7 @@
     margin: 2rem 0 1rem;
     overflow: hidden;
 }
-.nav-tabs .nav-link {
+.am.nav-tabs .nav-link {
     margin-right: 5px;
   }
   
@@ -30,19 +30,19 @@
     border: 1px solid #1d4b98;
     border-top: none;
   }
-  .cloud-consulting li.nav-item {
+  .am li.nav-item {
     width: 20%;
     text-align: center;
 }
-.nav-tabs .nav-link{
-    padding: 5px;
+.am.nav-tabs .nav-link{
+    padding: 5px 14px;
     color:#000;
 }
 .cloud-head ul{
     padding: 1rem 2rem;
     overflow: hidden;
 }
-.nav-tabs .nav-link.active{
+.am.nav-tabs .nav-link.active{
     color: #fff;
     background-color: #1d4b98;
     border-color:#1d4b98;
@@ -56,38 +56,26 @@
 }
 
 @media (min-width: 2000px) and (max-width: 2499px) {
-    .cloud-consulting li.nav-item {
+    .am li.nav-item {
         width: 16%;
     }
-    .nav-tabs .nav-link {
-        padding: 5px 42px;
+    .am.nav-tabs .nav-link {
+        padding: 5px 10px;
     }
-    a#parent-tab1{
-        padding: 5px 43px;
-    }
-    a#parent-tab4 {
-        padding: 17px;
-    }
-    a#parent-tab5 {
-        padding: 17px;
+    .am a#parent-tab1{
+        padding: 5px 30px;
     }
 }
 
 @media (min-width: 1600px) and (max-width: 1999px) {
-    .cloud-consulting li.nav-item {
+    .am li.nav-item {
         width: 16%;
     }
-    .nav-tabs .nav-link {
-        padding: 5px 42px;
+    .am.nav-tabs .nav-link {
+        padding: 5px 15px;
     }
-    a#parent-tab1{
-        padding: 5px 43px;
-    }
-    a#parent-tab4 {
-        padding: 17px;
-    }
-    a#parent-tab5 {
-        padding: 17px;
+    .am a#parent-tab1{
+        padding: 5px 30px;
     }
 }
 
@@ -102,15 +90,15 @@
     .cloud-head h3{
         font-size:150%;
      }
-     .cloud-consulting li.nav-item {
+     .am li.nav-item {
         width: 33.33%;
     }
-    .nav-tabs .nav-item{
+    .am.nav-tabs .nav-item{
         border: 1px solid #ddd;
     }
-    .nav-tabs .nav-link{
+    .am.nav-tabs .nav-link{
         border:unset !important;
-        padding: 8px 50px;
+        padding: 8px 61px;
         margin-right:0;
     }
     }
@@ -125,15 +113,15 @@
         .cloud-head h3{
             font-size:150%;
          }
-        .cloud-consulting li.nav-item {
+        .am li.nav-item {
             width: 33.33%;
         }
-        .nav-tabs .nav-item{
+        .am.nav-tabs .nav-item{
             border: 1px solid #ddd;
         }
-        .nav-tabs .nav-link{
+        .am.nav-tabs .nav-link{
             border:unset !important;
-            padding: 8px 26px;
+            padding: 5px 21px;
             margin-right:0;
         }
     }
@@ -148,13 +136,13 @@
         .cloud-head h3{
             font-size:150%;
          }
-        .cloud-consulting li.nav-item {
+        .am li.nav-item {
             width: 33.33%;
         }
-        .nav-tabs .nav-item{
+        .am.nav-tabs .nav-item{
             border: 1px solid #ddd;
         }
-        .nav-tabs .nav-link{
+        .am.nav-tabs .nav-link{
             border:unset !important;
             padding: 8px 26px;
             margin-right:0;
@@ -171,10 +159,11 @@
         .cloud-head h3{
             font-size:150%;
          }
-         .cloud-consulting li.nav-item{
+         .am li.nav-item{
             width:100%;
          }
-         .nav-tabs .nav-link{
+         .am.nav-tabs .nav-link{
             padding:12px;
+            margin-right:0;
          }
     }

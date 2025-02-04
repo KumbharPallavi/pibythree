@@ -7,7 +7,7 @@
     font-weight: 500;
 }
 .contact-us{
-    margin-top:-3rem;
+    /* margin-top:-3rem; */
 }
 .contact-us-content h2{
     color: #000;
@@ -177,6 +177,10 @@ input[type="text"] {
 #contactusForm{
     width: 75%;
     margin:0 auto;
+}
+
+.text-danger{
+    margin-bottom: 10px;
 }
 
 @media (min-width: 2000px) and (max-width: 2400px) {

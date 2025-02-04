@@ -498,74 +498,62 @@
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client2.png" alt="" class="img-fluid">
                                 </div>
-                                <span class="icon-name">AWS</span>
                             </li>
                             <li data-img="image3.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client3.png" alt="snoflake" class="img-fluid">
                                 </div>
-                                <span class="icon-name">Azure</span>
                             </li>
                             <li data-img="image8.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client8.png" alt="redhat" class="img-fluid">
                                 </div>
-                                <span class="icon-name">Data iku</span>
                             </li>
                             <li data-img="image4.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client4.png" alt="" class="img-fluid">
                                 </div>
-                                <span class="icon-name">RedHat</span>
                             </li>
 
                             <li data-img="image6.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client5.png" alt="" class="img-fluid">
                                 </div>
-                                <span class="icon-name">Datadog</span>
                             </li>
                             <li data-img="image7.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
-                                    <img src="images/" alt="databricks" class="img-fluid">
+                                    <img src="images/partner/databricks.png" alt="databricks" class="img-fluid">
                                 </div>
-                                <span class="icon-name">Databricks</span>
                             </li>
                             <li data-img="image11.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client11.png" alt="" class="img-fluid">
                                 </div>
-                                <span class="icon-name">Couchbase</span>
                             </li>
                             <li data-img="image6.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client6.png" alt="" class="img-fluid">
                                 </div>
-                                <span class="icon-name">Matillion</span>
                             </li>
                             <li data-img="image7.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client7.png" alt="" class="img-fluid">
                                 </div>
-                                <span class="icon-name">DBT Labs</span>
                             </li>
                             <li data-img="image8.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client8.png" alt="" class="img-fluid">
                                 </div>
-                                <span class="icon-name">Dataiku</span>
                             </li>
                             <li data-img="image1.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
                                     <img src="images/partner/img-client1.png" alt="" class="img-fluid">
                                 </div>
-                                <span class="icon-name">Snowflake</span>
                             </li>
                             <li data-img="image1.jpg" data-aos="fade-left">
                                 <div class="partner-icon">
-                                    <img src="images/partner/img-client10.png" alt="" class="img-fluid">
+                                    <img src="images/partner/google-cloud.png" alt="google-cloud" class="img-fluid">
                                 </div>
-                                <span class="icon-name">Google Cloud</span>
                             </li>
                         </ul>
 
@@ -580,7 +568,7 @@
 
 
                 <div class="join-partner-eco-head">
-                    <a href="#" class="btn btn-default aos-init aos-animate partners-btn" data-aos="fade-left"><span
+                    <a href="mailto:contactus@pibythree.com" class="btn btn-default aos-init aos-animate partners-btn" data-aos="fade-left"><span
                             class="outer-wrap"><span data-text="Join our Partner Ecosystem">Join our Partner
                                 Ecosystem</span>
                         </span>

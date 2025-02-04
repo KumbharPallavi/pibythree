@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="footer-logo">
-                        <img src="images/footer-logo.png" alt="footer-logo" class="footer-logo-img">
+                        <a href="<?php echo $home;?>/home"><img src="<?php echo $home;?>/images/footer-logo.png" alt="footer-logo" class="footer-logo-img"></a>
                     </div>
                     <div class="footer-wrap">
                         <div class="footer-card">
@@ -61,7 +61,11 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script>
-    AOS.init();
+     AOS.init({
+        duration: 1000,  // Animation duration in milliseconds
+        easing: 'ease-in-out', // Smooth easing effect
+        once: true // Ensures animation runs only once
+    });
   </script>
   <script defer src="https://cdn.jsdelivr.net/npm/vlitejs@5"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/vlitejs@5/dist/plugins/subtitle.js"></script>

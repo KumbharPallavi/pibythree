@@ -98,7 +98,7 @@
                           <span style="font-size: 24px; line-height: 0;">&#x213C;</span> Insights
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a class="dropdown-item" href="<?php echo $home; ?>/blogs">Blogs</a></li>
+                          <li><a class="dropdown-item" href="<?php echo $home; ?>/blog">Blogs</a></li>
                         </ul>
                       </li>
                       <li class="nav-item dropdown">
@@ -261,7 +261,7 @@
                           <p>Staying Ahead of the Game.</p>
                         </div>
                         <div class="arrow-icon">
-                          <a href="<?php echo $home; ?>/cloud-application-modernization"><i class="fa-solid fa-arrow-right"></i>
+                          <a href="<?php echo $home; ?>/application-modernization"><i class="fa-solid fa-arrow-right"></i>
                           </a>
                         </div>
                       </div>

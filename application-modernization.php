@@ -62,7 +62,7 @@
                     <h3>Our Application Modernization Services </h3>
                 </div>
                 <!-- Parent Nav Tabs -->
-                <ul class="nav nav-tabs cloud-consulting" id="parentTabs" role="tablist">
+                <ul class="nav nav-tabs am" id="parentTabs" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="parent-tab1" data-bs-toggle="tab" href="#parent-content1"
                             role="tab">Legacy to Cloud Transformation  </a>

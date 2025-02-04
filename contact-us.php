@@ -38,11 +38,31 @@
                             approach with cutting-edge solutions empowers enterprises to achieve the remarkable results
                         </p>
                     </div>
-                    <?php
+                   
+<?php
+// Database connection
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "contact";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
 $errors = [];
 $success_message = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+    $name = trim($_POST['name'] ?? '');
+    $email = trim($_POST['email1'] ?? '');
+    $phone = trim($_POST['phone'] ?? '');
+    $subject = trim($_POST['subject'] ?? '');
+    $additional_info = trim($_POST['additional-information'] ?? '');
+
     // Input validation
     if (empty($_POST['name']) || strlen($_POST['name']) < 2 || strlen($_POST['name']) > 50) {
         $errors['name'] = "Invalid name. Please enter a valid name (2-50 characters).";
@@ -58,28 +78,38 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (empty($errors)) {
         // Process form data (e.g., save to the database)
-        $success_message = "Thank you! Your message has been sent successfully.";
+        // $success_message = "Thank you! Your message has been sent successfully.";
         // Optionally, redirect to avoid resubmission
         // header('Location: ?status=success');
         // exit;
+
+        $sql_check = "SELECT * FROM contact_info WHERE email = ?";
+        $stmt_check = $conn->prepare($sql_check);
+        $stmt_check->bind_param("s", $email);
+        $stmt_check->execute();
+        $result = $stmt_check->get_result();
+
+        if ($result->num_rows > 0) {
+            $errors['email1'] = "This email is already registered.";
+        } else {
+            // **Insert data into the database**
+            $sql = "INSERT INTO contact_info (name, email, phone, subject, additional_info) VALUES (?, ?, ?, ?, ?)";
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("sssss", $name, $email, $phone, $subject, $additional_info);
+
+            if ($stmt->execute()) {
+                $success_message = "Your contact information has been submitted successfully.";
+                $_POST = []; // Clear form fields after successful submission
+            } else {
+                $errors['general'] = "There was an error submitting your form. Please try again.";
+            }
+        }
     }
 }
+$conn->close();
 ?>
-<?php
-// Database connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "contact";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// Get form data from POST request
-$name = $_POST['name'] ?? '';
+<!-- Get form data from POST request -->
+<!-- $name = $_POST['name'] ?? '';
 $email = $_POST['email1'] ?? '';
 $phone = $_POST['phone'] ?? '';
 $subject = $_POST['subject'] ?? '';
@@ -138,7 +168,7 @@ if (empty($errors)) {
     $error_message = "Please fill in all required fields.";
 }
 
-$conn->close();
+$conn->close(); -->
 ?>
 
 <!-- Display success or error message above the form -->

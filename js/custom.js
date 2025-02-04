@@ -23,6 +23,27 @@ window.addEventListener("load", () => {
 
 
 $(document).ready(function () {
+    //contact us form
+    $("#contactusForm").submit(function (e) {
+        let hasErrors = false;
+
+        $(".input-field, #additional-information").each(function () {
+            let input = $(this);
+            let errorElement = input.siblings("small.text-danger");
+
+            if ($.trim(input.val()) === "") {
+                errorElement.text(input.attr("placeholder") + " is required").show();
+                hasErrors = true;
+            } else {
+                errorElement.text("").hide();
+            }
+        });
+
+        if (hasErrors) {
+            e.preventDefault(); // Prevent form submission if there are errors
+        }
+    });
+
     // Toggle main menu on hamburger click
     $('.navbar-toggler').on('click', function () {
         // $('#navbarNavDropdown').slideToggle(); 
@@ -119,7 +140,7 @@ $(window).on('click', function (e) {
         margin: 10,
         autoplay: true,
         smartSpeed: 1000,
-        autoplayTimeout: 7000,
+        autoplayTimeout: 2000,
         responsiveClass: true,
         responsive: {
             0: {

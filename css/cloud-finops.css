@@ -18,7 +18,7 @@
     margin: 2rem 0 1rem;
     overflow: hidden;
 }
-.nav-tabs .nav-link {
+.cloud-finops.nav-tabs .nav-link {
     margin-right: 5px;
   }
   
@@ -34,7 +34,7 @@
 .cloud-finops a#parent-tab2 {
     padding: 5px 27px;
 }
-.nav-tabs .nav-link{
+.cloud-finops.nav-tabs .nav-link{
     padding: 5px 23px;
     color:#000;
 }
@@ -48,7 +48,7 @@
     padding: 0;
     overflow: hidden;
 }
-.nav-tabs .nav-link.active{
+.cloud-finops.nav-tabs .nav-link.active{
     color: #fff;
     background-color: #1d4b98;
     border-color:#1d4b98;
@@ -64,23 +64,29 @@
     .nav-tabs .nav-link {
         padding: 5px 37px;
     }
-    .cloud-finops #parent-tab6 {
+    .cloud-finops a#parent-tab6 {
+        padding: 5px 56px;
+    }
+    .cloud-finops a#parent-tab2 {
         padding: 5px 50px;
     }
-    a#parent-tab2 {
-        padding: 5px 50px;
+    .cloud-finops.nav-tabs .nav-link {
+        padding: 5px 26px;
     }
 }
 
 @media (min-width: 1600px) and (max-width: 1999px) {
-    .nav-tabs .nav-link {
+    .cloud-finops.nav-tabs .nav-link {
         padding: 5px 37px;
     }
     .cloud-finops a#parent-tab6 {
+        padding: 5px 56px;
+    }
+    .cloud-finops a#parent-tab2 {
         padding: 5px 50px;
     }
-    a#parent-tab2 {
-        padding: 5px 50px;
+    .cloud-finops a#parent-tab5 {
+        padding: 5px 30px;
     }
 }
 
@@ -106,6 +112,18 @@
         padding: 8px 92px;
         margin-right:0;
     }
+    .cloud-finops.nav-tabs .nav-link {
+        padding: 5px 74px;
+    }
+    .cloud-finops a#parent-tab2 {
+        padding: 5px 91px;
+    }
+    .cloud-finops a#parent-tab6 {
+        padding: 5px 103px;
+    }
+    .cloud-finops a#parent-tab5 {
+        padding: 5px 55px;
+    }
     }
     @media (min-width: 769px) and (max-width: 991px) {
         /* ipad-air */
@@ -129,6 +147,15 @@
             padding: 8px 52px;
             margin-right:0;
         }
+        .cloud-finops.nav-tabs .nav-link {
+            padding: 5px 34px;
+        }
+        .cloud-finops a#parent-tab2 {
+            padding: 5px 50px;
+        }
+        .cloud-finops a#parent-tab6 {
+            padding: 5px 70px;
+        }
     }
     @media (min-width: 569px) and (max-width: 768px){
         /* ipad-mini */
@@ -144,13 +171,19 @@
         .cloud-finops li.nav-item {
             width: 33.33%;
         }
-        .nav-tabs .nav-item{
+        .cloud-finops.nav-tabs .nav-item{
             border: 1px solid #ddd;
         }
-        .nav-tabs .nav-link{
+        .cloud-finops.nav-tabs .nav-link{
             border:unset !important;
             padding: 8px 52px;
             margin-right:0;
+        }
+        .cloud-finops a#parent-tab2 {
+            padding: 20px 27px;
+        }
+        .cloud-finops a#parent-tab6,.cloud-finops a#parent-tab6.active {
+            padding: 20px 27px;
         }
     }
     @media (min-width: 320px) and (max-width: 568px){
@@ -167,7 +200,8 @@
          .cloud-finops li.nav-item{
             width:100%;
          }
-         .nav-tabs .nav-link{
-            padding:12px;
+         .cloud-finops.nav-tabs .nav-link{
+            padding: 12px;
+            margin-right:0;
          }
     }

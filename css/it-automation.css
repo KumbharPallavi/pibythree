@@ -21,10 +21,6 @@
     list-style: none;
     padding-left:2rem !important;
 }
-
-.nav-tabs .nav-link {
-    margin-right: 5px;
-  }
   
   .tab-content {
     padding: 20px;
@@ -35,9 +31,10 @@
     width: 22.6%;
     text-align: center;
 }
-.nav-tabs .nav-link{
+.it-automation.nav-tabs .nav-link{
     padding: 5px 24px;
     color:#000;
+    margin-right: 5px;
 }
 .it-automation.nav-tabs .nav-link {
     padding: 5px 8px;
@@ -46,7 +43,7 @@
     padding: 0;
     overflow: hidden;
 }
-.nav-tabs .nav-link.active{
+.it-automation.nav-tabs .nav-link.active{
     color: #fff;
     background-color: #1d4b98;
     border-color:#1d4b98;
@@ -59,15 +56,12 @@
 }
 
 @media (min-width: 2000px) and (max-width: 2499px) {
-    a#parent-tab4 {
+    .it-automation a#parent-tab4 {
         padding: 0;
     }
 }
 
 @media (min-width: 1600px) and (max-width: 1999px) {
-    a#parent-tab4 {
-        padding: 0;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -92,6 +86,15 @@
         padding: 8px 26px;
         margin-right:0;
     }
+    .it-automation.nav-tabs .nav-link.active {
+        padding: 18px 35px;
+    }
+    .it-automation.nav-tabs .nav-link {
+        padding: 18px 35px;
+    }
+    .it-automation.nav-tabs .nav-link#parent-tab4 {
+        padding: 18px 14px;
+    }
     }
     @media (min-width: 769px) and (max-width: 991px) {
         /* ipad-air */
@@ -105,14 +108,14 @@
             font-size:150%;
          }
         .it-automation li.nav-item {
-            width: 25%;
+            width: 50%;
         }
-        .nav-tabs .nav-item{
+        .it-automation.nav-tabs .nav-item{
             border: 1px solid #ddd;
         }
-        .nav-tabs .nav-link{
+        .it-automation.nav-tabs .nav-link{
             border:unset !important;
-            padding: 8px 10px;
+            padding: 8px 36px;
             margin-right:0;
         }
     }
@@ -126,16 +129,17 @@
         }
         .cloud-head h3{
             font-size:150%;
+            margin: 1rem 0;
          }
-        .it-automation li.nav-item {
-            width: 25%;
+         .it-automation li.nav-item {
+            width: 50%;
         }
-        .nav-tabs .nav-item{
+        .it-automation.nav-tabs .nav-item{
             border: 1px solid #ddd;
         }
-        .nav-tabs .nav-link{
+        .it-automation.nav-tabs .nav-link{
             border:unset !important;
-            padding: 8px 10px;
+            padding: 8px 36px;
             margin-right:0;
         }
     }
@@ -149,11 +153,13 @@
         }
         .cloud-head h3{
             font-size:150%;
+            margin: 1rem 0;
          }
          .it-automation li.nav-item{
             width:100%;
          }
-         .nav-tabs .nav-link{
+         .it-automation.nav-tabs .nav-link{
             padding:12px;
+            margin-right:0;
          }
     }

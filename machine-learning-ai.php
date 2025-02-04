@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="col-12 p-0">
                             <div class="banner-img">
-                                <img src="images/about-us-banner.jpg" class="img-fluid" alt="about-us-banner">
+                                <img src="images/ml-banner.jpg" class="img-fluid" alt="ml-banner">
                             </div>
                         </div>
                     </div>

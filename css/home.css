@@ -117,10 +117,10 @@ h3 {
 .img-partner img {
     background-color: #fff;
     cursor: pointer;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    mix-blend-mode: multiply;
-    opacity: .5;
+    /* filter: grayscale(100%); */
+    /* -webkit-filter: grayscale(100%); */
+    /* mix-blend-mode: multiply; */
+    /* opacity: .5; */
     transition: all .25s linear;
 }
 
@@ -258,7 +258,7 @@ h3 {
 .why-card-wrapper .why-us-card {
     background-color: #fff;
     border-radius: 6px;
-    box-shadow: 0 0 40px 0 rgba(0, 0, 0, .08);
+    box-shadow: 10px 8px 8px 0 rgba(0, 0, 0, .2);
     display: flex;
     flex-direction: column;
     font-size: 1rem;
@@ -291,7 +291,7 @@ h3 {
     color: #000;
 }
 
-.why-us-card:hover {
+#client-home-default.why-us-card:hover {
     background: #e4eafa;
     box-shadow: none;
 }

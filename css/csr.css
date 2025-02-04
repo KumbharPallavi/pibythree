@@ -6,6 +6,9 @@
     margin-bottom: 1rem;
     overflow:hidden;
 }
+.csr-mob-banner img{
+    display: none;
+}
 .csr-head{
     overflow: hidden;
 }
@@ -40,6 +43,19 @@
 }
 .csr-card:nth-child(3), .csr-card:nth-child(6){
     margin-right:0;
+}
+.csr-pillar-wrapper{
+    display: flex;
+    align-items:center;
+}
+.csr-img-wrapper{
+    margin-right:15px;
+    width:6%;
+}
+.csr-img-wrapper img{
+    width:100%;
+    height:auto;
+    aspect-ratio:auto 313/313;
 }
 .philosophy-content h3{
     font-weight: 600;
@@ -168,6 +184,9 @@
     .join-us h3{
         font-size: 120%;
     }
+    .csr-img-wrapper{
+        width:8%;
+    }
 }
 
 
@@ -200,6 +219,9 @@
     .join-us h3{
         font-size: 120%;
     }
+    .csr-img-wrapper {
+        width:9%;
+    }
 }
 
 @media (min-width: 569px) and (max-width: 768px) {
@@ -230,6 +252,9 @@
     }
     .join-us h3{
         font-size: 120%;
+    }
+    .csr-img-wrapper {
+        width:9%;
     }
 }
 
@@ -270,5 +295,14 @@
     }
     .join-us h3{
         font-size: 120%;
+    }
+    .csr-mob-banner img{
+        display: block;
+        width: 100%;
+        height:auto;
+        aspect-ratio:auto 585/800;
+    }
+    .csr-img-wrapper {
+        width:18%;
     }
 }

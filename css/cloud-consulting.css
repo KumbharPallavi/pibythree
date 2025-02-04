@@ -17,9 +17,6 @@
     margin: 2rem 0 1rem;
     overflow: hidden;
 }
-.nav-tabs .nav-link {
-    margin-right: 5px;
-  }
   
   .tab-content {
     padding: 10px;
@@ -30,15 +27,16 @@
     width: 16.6%;
     text-align: center;
 }
-.nav-tabs .nav-link{
+.cloud-consulting.nav-tabs .nav-link{
     padding: 5px;
     color:#000;
+    margin-right: 5px;
 }
 .cloud-head ul{
     padding: 1rem 2rem;
     overflow: hidden;
 }
-.nav-tabs .nav-link.active{
+.cloud-consulting.nav-tabs .nav-link.active{
     color: #fff;
     background-color: #1d4b98;
     border-color:#1d4b98;
@@ -51,11 +49,15 @@
 }
 
 @media (min-width: 2000px) and (max-width: 2499px) {
-   
+    .cloud-consulting.nav-tabs .nav-link {
+        padding: 5px 18px;
+    }
 }
 
 @media (min-width: 1600px) and (max-width: 1999px) {
-    
+    .cloud-consulting.nav-tabs .nav-link {
+        padding: 5px 20px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -72,13 +74,16 @@
      .cloud-consulting li.nav-item {
         width: 33.33%;
     }
-    .nav-tabs .nav-item{
+    .cloud-consulting.nav-tabs .nav-item{
         border: 1px solid #ddd;
     }
-    .nav-tabs .nav-link{
+    .cloud-consulting.nav-tabs .nav-link{
         border:unset !important;
-        padding: 8px 26px;
+        padding: 20px 66px;
         margin-right:0;
+    }
+    .cloud-consulting.nav-tabs .nav-link.active{
+        padding: 20px 66px;
     }
     }
     @media (min-width: 769px) and (max-width: 991px) {
@@ -95,10 +100,10 @@
         .cloud-consulting li.nav-item {
             width: 33.33%;
         }
-        .nav-tabs .nav-item{
+        .cloud-consulting .nav-tabs .nav-item{
             border: 1px solid #ddd;
         }
-        .nav-tabs .nav-link{
+        .cloud-consulting.nav-tabs .nav-link{
             border:unset !important;
             padding: 8px 26px;
             margin-right:0;
@@ -118,11 +123,10 @@
         .cloud-consulting li.nav-item {
             width: 33.33%;
         }
-        .nav-tabs .nav-item{
+        .cloud-consulting .nav-tabs .nav-item{
             border: 1px solid #ddd;
         }
-        .nav-tabs .nav-link{
-            border:unset !important;
+        .cloud-consulting.nav-tabs .nav-link{
             padding: 8px 26px;
             margin-right:0;
         }
@@ -141,7 +145,7 @@
          .cloud-consulting li.nav-item{
             width:100%;
          }
-         .nav-tabs .nav-link{
+         .cloud-consulting.nav-tabs .nav-link{
             padding:12px;
          }
     }

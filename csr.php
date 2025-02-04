@@ -4,7 +4,10 @@
                     <div class="row">
                         <div class="col-12 p-0">
                             <div class="banner-img">
-                                <img src="images/about-us-banner.jpg" class="img-fluid" alt="about-us-banner">
+                                <img src="images/csr-desktop-banner.jpg" class="img-fluid" alt="csr-desktop-banner">
+                            </div>
+                            <div class="csr-mob-banner">
+                                <img src="images/csr-mob.jpg" class="img-fluid" alt="about-us-banner">
                             </div>
                         </div>
                     </div>
@@ -156,28 +159,50 @@
                 <div class="col-12">
                     <div class="csr-head">
                         <h2 data-aos="fade-down">Our CSR Pillars</h2>
-                        <h3 data-aos="fade-right">Environmental Stewardship</h3>
+                        <div class="csr-pillar-wrapper">
+                            <div class="csr-img-wrapper">
+                                <img src="images/environmental-stewardship.png" class="img-fluid" alt="csr-img">
+                            </div>
+                            <h3 data-aos="fade-right">Environmental Stewardship</h3>
+                        </div>
+                        
                         <p data-aos="fade-right">We are committed to reducing our environmental footprint and promoting sustainable practices:</p>
                         <ul data-aos="fade-right">
                             <li>Reducing carbon emissions by 30% by 2025</li>
                             <li>Implementing recycling and waste reduction programs across all our facilities</li>
                             <li>Investing in renewable energy sources for our operations</li>
                         </ul>
-                        <h3 data-aos="fade-right">Community Engagement</h3>
+                        <div class="csr-pillar-wrapper">
+                            <div class="csr-img-wrapper">
+                                <img src="images/community-engagement.png" class="img-fluid" alt="csr-img">
+                            </div>
+                            <h3 data-aos="fade-right">Community Engagement</h3>
+                        </div>
                         <p data-aos="fade-right">We actively support and engage with the communities where we operate:</p>
                         <ul data-aos="fade-right">
                             <li>Annual volunteer programs with local charities</li>
                             <li>Sponsorship of educational initiatives in underserved areas</li>
                             <li>Disaster relief support during times of crisis</li>
                         </ul>
-                        <h3 data-aos="fade-right">Ethical Business Practices</h3>
+                        <div class="csr-pillar-wrapper">
+                            <div class="csr-img-wrapper">
+                                <img src="images/ethical-business-practices.png" class="img-fluid" alt="csr-img">
+                            </div>
+                            <h3 data-aos="fade-right">Ethical Business Practices</h3>
+                        </div>
                         <p data-aos="fade-right">We uphold the highest standards of ethics and integrity in all our business dealings:</p>
                         <ul data-aos="fade-right">
                             <li>Robust code of conduct for all employees and partners</li>
                             <li>Transparent reporting of our CSR initiatives and progress</li>
                             <li>Fair labor practices and human rights protection throughout our supply chain</li>
                         </ul>
-                        <h3 data-aos="fade-right">Diversity and Inclusion</h3>
+                        <div class="csr-pillar-wrapper">
+                            <div class="csr-img-wrapper">
+                                <img src="images/diversity-and-inclusion.png" class="img-fluid" alt="csr-img">
+                            </div>
+                            <h3 data-aos="fade-right">Diversity and Inclusion</h3>
+                        </div>
+                       
                         <p data-aos="fade-right">We foster a diverse and inclusive workplace where every individual can thrive:</p>
                         <ul data-aos="fade-right">
                             <li>Comprehensive diversity and inclusion training for all employees</li>

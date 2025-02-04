@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="col-12 p-0">
                             <div class="banner-img">
-                                <img src="images/about-us-banner.jpg" class="img-fluid" alt="about-us-banner">
+                                <img src="images/accelerators-banner.jpg" class="img-fluid" alt="pi-accelerator-banner">
                             </div>
                         </div>
                     </div>
@@ -103,8 +103,6 @@
                             </li>
                             <li class="accordion-img" data-aos="fade-right">RoboPod empowers DevOps teams to accelerate deployment cycles while maintaining complete control over their Kubernetes infrastructure. By eliminating manual deployment complexities and offering runtime flexibility, RoboPod helps organizations achieve faster time-to-market and improved operational efficiency.</li>
                             <li class="accordion-img" data-aos="fade-right">Synthetic Data generator</li>
-                            <li class="accordion-img" data-aos="fade-right"></li>
-                            <li class="accordion-img" data-aos="fade-right"></li>
                             <!-- <img src="image1.jpg" alt="Image 1" class="accordion-img active-img" data-aos="fade-right"> -->
                             <!-- <img src="image2.jpg" alt="Image 2" class="accordion-img" data-aos="fade-right"> -->
                             <!-- <img src="image3.jpg" alt="Image 3" class="accordion-img" data-aos="fade-right"> -->
@@ -122,8 +120,6 @@
                                 <li data-img="image4.jpg" data-aos="fade-left"><span style="font-size: 24px; line-height: 0;">&#x213C;</span>-Ingest</li>
                                 <li data-img="image5.jpg" data-aos="fade-left">RoboPod</li>
                                 <li data-img="image6.jpg" data-aos="fade-left">Synthetic Data generator</li>
-                                <li data-img="image7.jpg" data-aos="fade-left"></li>
-                                <li data-img="image8.jpg" data-aos="fade-left"></li>
                             </ul>
                         </div>
                     </div>

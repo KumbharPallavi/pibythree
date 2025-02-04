@@ -23,20 +23,20 @@
 
 
 
-.nav-tabs .nav-link {
+.generative-ai.nav-tabs .nav-link {
     margin-right: 5px;
-  }
+}
   
-  .tab-content {
+.tab-content {
     padding: 10px;
     border: 1px solid #1d4b98;
     border-top: none;
-  }
-  .generative-ai li.nav-item {
+}
+.generative-ai li.nav-item {
     width: 19.6%;
     text-align: center;
 }
-.nav-tabs .nav-link{
+.generative-ai.nav-tabs .nav-link{
     padding: 1rem 2rem;
     color:#000;
 }
@@ -44,7 +44,7 @@
     padding: 0;
     overflow: hidden;
 }
-.nav-tabs .nav-link.active{
+.generative-ai.nav-tabs .nav-link.active{
     color: #fff;
     background-color: #1d4b98;
     border-color:#1d4b98;
@@ -57,13 +57,13 @@
 }
 
 @media (min-width: 2000px) and (max-width: 2499px) {
-    .nav-tabs .nav-link {
+    .generative-ai.nav-tabs .nav-link {
         padding: 1rem 3rem;
     }
 }
 
 @media (min-width: 1600px) and (max-width: 1999px) {
-    .nav-tabs .nav-link {
+    .generative-ai.nav-tabs .nav-link {
         padding: 1rem 3rem;
     }
 }
@@ -82,10 +82,10 @@
      .generative-ai li.nav-item {
         width: 24.9%;
     }
-    .nav-tabs .nav-item{
+    .generative-ai.nav-tabs .nav-item{
         border: 1px solid #ddd;
     }
-    .nav-tabs .nav-link{
+    .generative-ai.nav-tabs .nav-link{
         border:unset !important;
         padding: 8px 34px;
         margin-right:0;
@@ -105,10 +105,10 @@
         .generative-ai li.nav-item {
             width: 24.9%;
         }
-        .nav-tabs .nav-item{
+        .generative-ai.nav-tabs .nav-item{
             border: 1px solid #ddd;
         }
-        .nav-tabs .nav-link{
+        .generative-ai.nav-tabs .nav-link{
             border:unset !important;
             padding: 8px 16px;
             margin-right:0;
@@ -128,10 +128,10 @@
         .generative-ai li.nav-item {
             width: 24.9%;
         }
-        .nav-tabs .nav-item{
+        .generative-ai.nav-tabs .nav-item{
             border: 1px solid #ddd;
         }
-        .nav-tabs .nav-link{
+        .generative-ai.nav-tabs .nav-link{
             border:unset !important;
             padding: 8px 16px;
             margin-right:0;
@@ -151,7 +151,8 @@
          .generative-ai li.nav-item{
             width:100%;
          }
-         .nav-tabs .nav-link{
+         .generative-ai.nav-tabs .nav-link{
             padding:12px;
+            margin-right:0;
          }
     }

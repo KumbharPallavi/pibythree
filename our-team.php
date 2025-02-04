@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="col-12 p-0">
                             <div class="banner-img">
-                                <img src="images/team-banner.jpg" class="img-fluid" alt="about-us-banner">
+                                <img src="images/team-banners.jpg" class="img-fluid" alt="team-banner">
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
         </header>
     </div>
 
-    <section class="our-team section-padding">
+    <section class="our-team">
         <div class="container">
             <div class="row">
                 <div class="col-12">

@@ -221,7 +221,7 @@
                                 Indonesia, Denmark, and
                                 Australia,</strong> providing local expertise with a global perspective.
                         </p>
-                        <a href="contact-us.php" class="btn btn-default mt-3" data-aos="fade-left"><span
+                        <a href="<?php echo $home;?>/contact-us" class="btn btn-default mt-3" data-aos="fade-left"><span
                                 class="outer-wrap"><span data-text="Contact Us">Contact Us</span>
                             </span>
                         </a>
@@ -230,20 +230,26 @@
                         <div class="texas-map" data-aos="flip-left">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14044807.549254837!2d-110.72417126749406!3d30.749083019643095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2sTexas%2C%20USA!5e0!3m2!1sen!2sin!4v1733303980328!5m2!1sen!2sin"
-                                width="340" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                width="380" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <div class="australia-map" data-aos="flip-up">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61962434.08948138!2d86.82799404906925!3d-18.579139447964046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2sin!4v1733304043116!5m2!1sen!2sin"
-                                width="340" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                width="380" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="global-map">
+                        <div class="india-map" data-aos="flip-right">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15128.923347612512!2d73.74748818911202!3d18.563628944910718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bba3e659a3d1%3A0x23ca6f83af0009dd!2sPibyThree%20Consulting%20Services%20Private%20Limited!5e0!3m2!1sen!2sin!4v1738561245823!5m2!1sen!2sin"
+                                width="380" height="250" style="border:0;" allowfullscreen="" loading="lazy" 
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <div class="india-map" data-aos="flip-right">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30767694.11883084!2d60.92944751922805!3d19.72019948337311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1733304092858!5m2!1sen!2sin"
-                                width="340" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.9173929392737!2d73.01300577373753!3d19.111279550866957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0c28cdf949b%3A0x5199d1d2c6607fb7!2sRUPA%20SOLITAIRE%2C%20MILLENNIUM%20BUSINESS%20PARK%2C%20Millenium%20Business%20Park%2C%20Sector%202%2C%20Kopar%20Khairane%2C%20Navi%20Mumbai%2C%20Maharashtra%20400701!5e0!3m2!1sen!2sin!4v1738566307472!5m2!1sen!2sin" 
+                            width="380" height="250" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

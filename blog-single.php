@@ -75,7 +75,7 @@ if ($result1->num_rows > 0) {
 
               <div class="entry-img"><img src="<?php echo $dir.'/'.$blog['image']; ?>" alt="entry image" />
                 <div class="entry-meta">
-                  <div class="entry-category"><a href="blog.html"><?php echo $category['name']; ?></a></div>
+                  <div class="entry-category"><a href="<?php echo $home; ?>/category.php?id=<?php echo base64_encode($blog['category']); ?>"><?php echo $category['name']; ?></a></div>
                   <div class="entry-date"> <span class="date"><?php echo date('M Y',strtotime($blog['created_at'])); ?></span></div>
                   <div class="entry-author"><a href="blog.html">Admin</a></div>
                 </div>
